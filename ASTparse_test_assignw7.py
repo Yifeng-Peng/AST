@@ -1497,7 +1497,7 @@ with open(astresult, 'w', encoding='UTF-8') as astr:
 print(" AST PARSER END PROCESS")
 
 #dot.render('{}.gv'.format(result_name[0]), view=True)#####可自动根据文件名来保存
-#dot.render('{}.gv'.format('results/tree/Vb14_ast'), view=True)#---------------------------------------------------------------------------------------------------改文件名字
+dot.render('{}.gv'.format('results/tree/Vb14_ast'), view=True)#---------------------------------------------------------------------------------------------------改文件名字
 
 
     # parts['Partedge%s' % j]
