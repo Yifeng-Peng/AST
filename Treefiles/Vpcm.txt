@@ -1,0 +1,527 @@
+Verilator Tree Dump (format 0x3900) from <e9227> to <e9234>
+     NETLIST 0x55e79dceceb0 <e1> {a0}  $root [1ns/10ps]
+    1: MODULE 0x55e79dd06a70 <e2954> {c76}  TOP  L1 [P] [1ns]
+    1:2: VAR 0x55e79dd1a430 <e2958> {c86} @dt=0x55e79dd1aae0@(G/w1)  clk [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd2e5d0 <e2963> {c86} @dt=0x55e79dd1aae0@(G/w1)  rst [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd225e0 <e2969> {c87} @dt=0x55e79dd0e800@(G/w3)  ssel [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd30ae0 <e2975> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_clk_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd33b70 <e2981> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_sync_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd34340 <e2987> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_din_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd2dab0 <e2993> {c89} @dt=0x55e79dd1aae0@(G/w1)  pcm_dout_o [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd2fcb0 <e2999> {c90} @dt=0x55e79dd0fc70@(G/w8)  din_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd0ac30 <e3005> {c91} @dt=0x55e79dd0fc70@(G/w8)  dout_o [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd0cdd0 <e3011> {c92} @dt=0x55e79dd1aae0@(G/w1)  re_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd163b0 <e3017> {c93} @dt=0x55e79dd10f30@(G/w2)  we_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55e79dd287c0 <e2691> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_t [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd11360 <e2692> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_s [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd2a3c0 <e2693> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_r [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd2a530 <e2694> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_ris [VSTATIC]  WIRE
+    1:2: VAR 0x55e79dd0ae60 <e2695> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_fal [VSTATIC]  WIRE
+    1:2: VAR 0x55e79dd0afd0 <e2696> {c102} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__psync [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd0b140 <e2697> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r1 [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd0b2b0 <e2698> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r2 [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd297f0 <e2699> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r3 [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd29960 <e2700> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd29ad0 <e2701> {c105} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_data_le [VSTATIC]  WIRE
+    1:2: VAR 0x55e79dd29c40 <e2001> {c106} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__tx_hold_reg [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd29db0 <e2702> {c107} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__tx_hold_byte_h [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd29f20 <e2703> {c107} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__tx_hold_byte_l [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd2a090 <e2025> {c108} @dt=0x55e79dd13ca0@(G/w4)  pcm_slv_top__DOT__tx_cnt [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd3b150 <e2705> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_hold_reg [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd3b2c0 <e2706> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_reg [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd3b5a0 <e2708> {c112} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__rxd_t [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd3b710 <e2709> {c112} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__rxd [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd3b880 <e2710> {c113} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go_r1 [VSTATIC]  VAR
+    1:2: VAR 0x55e79dd3bb60 <e2712> {c114} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__psa [VSTATIC]  VAR
+    1:2: TOPSCOPE 0x55e79dd19ae0 <e4025> {c76}
+    1:2:2: SCOPE 0x55e79dd305e0 <e4586> {c76}  TOP
+    1:2: VAR 0x55e79dd16940 <e7021> {c86} @dt=0x55e79dd1aae0@(G/w1)  __Vclklast__TOP__clk MODULETEMP
+    1:2: CFUNC 0x55e79dd21b90 <e7560> {c122}  _sequent__TOP__1 [STATICU]
+    1:2:2: VAR 0x55e79dd0ed20 <e7647> {c114} @dt=0x55e79dd0fc70@(G/w8)  __Vdly__pcm_slv_top__DOT__psa BLOCKTEMP
+    1:2:2: VAR 0x55e79dd0d8d0 <e7649> {c106} @dt=0x55e79dd13280@(G/w16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg BLOCKTEMP
+    1:2:2: VAR 0x55e79dd27500 <e7651> {c108} @dt=0x55e79dd13ca0@(G/w4)  __Vdly__pcm_slv_top__DOT__tx_cnt BLOCKTEMP
+    1:2:3: ASSIGNPRE 0x55e79dd21d50 <e7657> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)
+    1:2:3:1: VARREF 0x55e79dd18240 <e7655> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)  pcm_slv_top__DOT__tx_cnt [RV] <- VAR 0x55e79dd2a090 <e2025> {c108} @dt=0x55e79dd13ca0@(G/w4)  pcm_slv_top__DOT__tx_cnt [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd3c230 <e7656> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)  __Vdly__pcm_slv_top__DOT__tx_cnt [LV] => VAR 0x55e79dd27500 <e7651> {c108} @dt=0x55e79dd13ca0@(G/w4)  __Vdly__pcm_slv_top__DOT__tx_cnt BLOCKTEMP
+    1:2:3: ASSIGNPRE 0x55e79dd32970 <e7663> {c142} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:1: VARREF 0x55e79dd29510 <e7661> {c142} @dt=0x55e79dd0de40@(G/wu32/8)  pcm_slv_top__DOT__psa [RV] <- VAR 0x55e79dd3bb60 <e2712> {c114} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__psa [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd486a0 <e7662> {c142} @dt=0x55e79dd0de40@(G/wu32/8)  __Vdly__pcm_slv_top__DOT__psa [LV] => VAR 0x55e79dd0ed20 <e7647> {c114} @dt=0x55e79dd0fc70@(G/w8)  __Vdly__pcm_slv_top__DOT__psa BLOCKTEMP
+    1:2:3: ASSIGNPRE 0x55e79dd21010 <e7669> {c176} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:1: VARREF 0x55e79dd16710 <e7667> {c176} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__tx_hold_reg [RV] <- VAR 0x55e79dd29c40 <e2001> {c106} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__tx_hold_reg [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd36340 <e7668> {c176} @dt=0x55e79dcfe400@(G/wu32/16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg [LV] => VAR 0x55e79dd0d8d0 <e7649> {c106} @dt=0x55e79dd13280@(G/w16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg BLOCKTEMP
+    1:2:3: COMMENT 0x55e79dd1fe40 <e6873> {c182}  ALWAYS
+    1:2:3: IF 0x55e79dd3ca70 <e6875> {c183}
+    1:2:3:1: VARREF 0x55e79dd3c950 <e7673> {c183} @dt=0x55e79dd0f140@(G/wu32/1)  rst [RV] <- VAR 0x55e79dd2e5d0 <e2963> {c86} @dt=0x55e79dd1aae0@(G/w1)  rst [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2: IF 0x55e79dd3d4c0 <e4957> {c185}
+    1:2:3:2:1: VARREF 0x55e79dd3d3a0 <e7674> {c185} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_data_le [RV] <- VAR 0x55e79dd29ad0 <e2701> {c105} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_data_le [VSTATIC]  WIRE
+    1:2:3:2:2: ASSIGNDLY 0x55e79dd3d930 <e7679> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)
+    1:2:3:2:2:1: AND 0x55e79dd0fef0 <e7692> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)
+    1:2:3:2:2:1:1: CONST 0x55e79dd26450 <e7688> {c185} @dt=0x55e79dd20ef0@(G/w32)  32'hf
+    1:2:3:2:2:1:2: ADD 0x55e79dd3d9f0 <e7689> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)
+    1:2:3:2:2:1:2:1: CCAST 0x55e79dd48ee0 <e8574> {c185} @dt=0x55e79dd1eab0@(G/wu32/4) sz32
+    1:2:3:2:2:1:2:1:1: CONST 0x55e79dd3dab0 <e8569> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)  4'h1
+    1:2:3:2:2:1:2:2: CCAST 0x55e79dd2ef30 <e8565> {c185} @dt=0x55e79dd1eab0@(G/wu32/4) sz32
+    1:2:3:2:2:1:2:2:1: VARREF 0x55e79dd3dbe0 <e8560> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)  pcm_slv_top__DOT__tx_cnt [RV] <- VAR 0x55e79dd2a090 <e2025> {c108} @dt=0x55e79dd13ca0@(G/w4)  pcm_slv_top__DOT__tx_cnt [VSTATIC]  VAR
+    1:2:3:2:2:2: VARREF 0x55e79dd4a5c0 <e7678> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)  __Vdly__pcm_slv_top__DOT__tx_cnt [LV] => VAR 0x55e79dd27500 <e7651> {c108} @dt=0x55e79dd13ca0@(G/w4)  __Vdly__pcm_slv_top__DOT__tx_cnt BLOCKTEMP
+    1:2:3:3: ASSIGNDLY 0x55e79dd3de80 <e7695> {c183} @dt=0x55e79dd1eab0@(G/wu32/4)
+    1:2:3:3:1: CONST 0x55e79dd3df40 <e7693> {c183} @dt=0x55e79dd1eab0@(G/wu32/4)  4'h0
+    1:2:3:3:2: VARREF 0x55e79dd3dd30 <e7694> {c183} @dt=0x55e79dd1eab0@(G/wu32/4)  __Vdly__pcm_slv_top__DOT__tx_cnt [LV] => VAR 0x55e79dd27500 <e7651> {c108} @dt=0x55e79dd13ca0@(G/w4)  __Vdly__pcm_slv_top__DOT__tx_cnt BLOCKTEMP
+    1:2:3: COMMENT 0x55e79dd0d3f0 <e6881> {c141}  ALWAYS
+    1:2:3: IF 0x55e79dd3fae0 <e6883> {c142}
+    1:2:3:1: VARREF 0x55e79dd487c0 <e7696> {c142} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_ris [RV] <- VAR 0x55e79dd2a530 <e2694> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_ris [VSTATIC]  WIRE
+    1:2:3:2: ASSIGNDLY 0x55e79dd32660 <e7722> {c142} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:2:1: OR 0x55e79dd1d3f0 <e8106> {c142} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:2:1:1: AND 0x55e79dd495a0 <e8389> {c142} @dt=0x55e79dd29680@(G/wu32/7)
+    1:2:3:2:1:1:1: CONST 0x55e79dd0d1a0 <e8397> {c142} @dt=0x55e79dd20ef0@(G/w32)  32'hfe
+    1:2:3:2:1:1:2: SHIFTL 0x55e79dd29300 <e8388> {c142} @dt=0x55e79dd20ef0@(G/w32)
+    1:2:3:2:1:1:2:1: CCAST 0x55e79dd49fc0 <e8583> {c142} @dt=0x55e79dd29680@(G/wu32/7) sz32
+    1:2:3:2:1:1:2:1:1: VARREF 0x55e79dd484c0 <e8578> {c142} @dt=0x55e79dd29680@(G/wu32/7)  pcm_slv_top__DOT__psa [RV] <- VAR 0x55e79dd3bb60 <e2712> {c114} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__psa [VSTATIC]  VAR
+    1:2:3:2:1:1:2:2: CONST 0x55e79dd0ffb0 <e8386> {c142} @dt=0x55e79dd20ef0@(G/w32)  32'h1
+    1:2:3:2:1:2: CCAST 0x55e79dd48be0 <e8592> {c142} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:2:1:2:1: VARREF 0x55e79dd48ca0 <e8587> {c142} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pcm_sync_r1 [RV] <- VAR 0x55e79dd0b140 <e2697> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r1 [VSTATIC]  VAR
+    1:2:3:2:2: VARREF 0x55e79dd21460 <e7721> {c142} @dt=0x55e79dd0de40@(G/wu32/8)  __Vdly__pcm_slv_top__DOT__psa [LV] => VAR 0x55e79dd0ed20 <e7647> {c114} @dt=0x55e79dd0fc70@(G/w8)  __Vdly__pcm_slv_top__DOT__psa BLOCKTEMP
+    1:2:3: COMMENT 0x55e79dd31eb0 <e6889> {c173}  ALWAYS
+    1:2:3: IF 0x55e79dd3fec0 <e6891> {c174}
+    1:2:3:1: VARREF 0x55e79dd3fda0 <e7723> {c174} @dt=0x55e79dd0f140@(G/wu32/1)  rst [RV] <- VAR 0x55e79dd2e5d0 <e2963> {c86} @dt=0x55e79dd1aae0@(G/w1)  rst [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2: IF 0x55e79dd41540 <e4918> {c176}
+    1:2:3:2:1: VARREF 0x55e79dd41400 <e7724> {c176} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__psync [RV] <- VAR 0x55e79dd0afd0 <e2696> {c102} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__psync [VSTATIC]  VAR
+    1:2:3:2:2: ASSIGNDLY 0x55e79dd41630 <e7729> {c176} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:2:2:1: OR 0x55e79dd22d30 <e8131> {c176} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:2:2:1:1: SHIFTL 0x55e79dd31250 <e8126> {c176} @dt=0x55e79dd20ef0@(G/w32)
+    1:2:3:2:2:1:1:1: CCAST 0x55e79dd460f0 <e8601> {c176} @dt=0x55e79dd0de40@(G/wu32/8) sz32
+    1:2:3:2:2:1:1:1:1: VARREF 0x55e79dd417b0 <e8596> {c176} @dt=0x55e79dd0de40@(G/wu32/8)  pcm_slv_top__DOT__tx_hold_byte_h [RV] <- VAR 0x55e79dd29db0 <e2702> {c107} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__tx_hold_byte_h [VSTATIC]  VAR
+    1:2:3:2:2:1:1:2: CONST 0x55e79dd1b300 <e8119> {c176} @dt=0x55e79dd20ef0@(G/w32)  32'h8
+    1:2:3:2:2:1:2: CCAST 0x55e79dd2f0e0 <e8610> {c176} @dt=0x55e79dd0de40@(G/wu32/8) sz32
+    1:2:3:2:2:1:2:1: VARREF 0x55e79dd418d0 <e8605> {c176} @dt=0x55e79dd0de40@(G/wu32/8)  pcm_slv_top__DOT__tx_hold_byte_l [RV] <- VAR 0x55e79dd29f20 <e2703> {c107} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__tx_hold_byte_l [VSTATIC]  VAR
+    1:2:3:2:2:2: VARREF 0x55e79dd27df0 <e7728> {c176} @dt=0x55e79dcfe400@(G/wu32/16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg [LV] => VAR 0x55e79dd0d8d0 <e7649> {c106} @dt=0x55e79dd13280@(G/w16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg BLOCKTEMP
+    1:2:3:2:3: IF 0x55e79dd49a80 <e4924> {c178}
+    1:2:3:2:3:1: VARREF 0x55e79dd49960 <e7730> {c178} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_data_le [RV] <- VAR 0x55e79dd29ad0 <e2701> {c105} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_data_le [VSTATIC]  WIRE
+    1:2:3:2:3:2: ASSIGNDLY 0x55e79dd49f00 <e7756> {c178} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:2:3:2:1: AND 0x55e79dd09260 <e8440> {c178} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:2:3:2:1:1: CONST 0x55e79dd2b300 <e8428> {c178} @dt=0x55e79dd20ef0@(G/w32)  32'hfffe
+    1:2:3:2:3:2:1:2: SHIFTL 0x55e79dd416f0 <e8419> {c178} @dt=0x55e79dd20ef0@(G/w32)
+    1:2:3:2:3:2:1:2:1: CCAST 0x55e79dd2e470 <e8619> {c178} @dt=0x55e79dd0e090@(G/wu32/15) sz32
+    1:2:3:2:3:2:1:2:1:1: VARREF 0x55e79dd4a150 <e8614> {c178} @dt=0x55e79dd0e090@(G/wu32/15)  pcm_slv_top__DOT__tx_hold_reg [RV] <- VAR 0x55e79dd29c40 <e2001> {c106} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__tx_hold_reg [VSTATIC]  VAR
+    1:2:3:2:3:2:1:2:2: CONST 0x55e79dd3bcd0 <e8417> {c178} @dt=0x55e79dd20ef0@(G/w32)  32'h1
+    1:2:3:2:3:2:2: VARREF 0x55e79dd419f0 <e7755> {c178} @dt=0x55e79dcfe400@(G/wu32/16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg [LV] => VAR 0x55e79dd0d8d0 <e7649> {c106} @dt=0x55e79dd13280@(G/w16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg BLOCKTEMP
+    1:2:3:3: ASSIGNDLY 0x55e79dd4a3e0 <e7759> {c174} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:3:1: CONST 0x55e79dd3c100 <e7757> {c174} @dt=0x55e79dcfe400@(G/wu32/16)  16'h0
+    1:2:3:3:2: VARREF 0x55e79dd3bfb0 <e7758> {c174} @dt=0x55e79dcfe400@(G/wu32/16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg [LV] => VAR 0x55e79dd0d8d0 <e7649> {c106} @dt=0x55e79dd13280@(G/w16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg BLOCKTEMP
+    1:2:3: COMMENT 0x55e79dd147e0 <e6897> {c127}  ALWAYS
+    1:2:3: ASSIGNDLY 0x55e79dd30e40 <e7762> {c128} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: VARREF 0x55e79dd15af0 <e7760> {c128} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_s [RV] <- VAR 0x55e79dd11360 <e2692> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_s [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd383a0 <e7761> {c128} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_r [LV] => VAR 0x55e79dd2a3c0 <e2693> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_r [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dd44390 <e6905> {c214}  ALWAYS
+    1:2:3: IF 0x55e79dd45910 <e6907> {c215}
+    1:2:3:1: VARREF 0x55e79dd457f0 <e7763> {c215} @dt=0x55e79dd0f140@(G/wu32/1)  rst [RV] <- VAR 0x55e79dd2e5d0 <e2963> {c86} @dt=0x55e79dd1aae0@(G/w1)  rst [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2: IF 0x55e79dd46870 <e5068> {c217}
+    1:2:3:2:1: AND 0x55e79dd46270 <e7769> {c217} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:1:1: AND 0x55e79dd46330 <e7767> {c217} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:1:1:1: CCAST 0x55e79dd112a0 <e8628> {c217} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:2:1:1:1:1: VARREF 0x55e79dd463f0 <e8623> {c217} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go_r1 [RV] <- VAR 0x55e79dd3b880 <e2710> {c113} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go_r1 [VSTATIC]  VAR
+    1:2:3:2:1:1:2: NOT 0x55e79dd46540 <e7766> {c217} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:1:1:2:1: CCAST 0x55e79dd1aa20 <e8637> {c217} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:2:1:1:2:1:1: VARREF 0x55e79dd46600 <e8632> {c217} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go [RV] <- VAR 0x55e79dd29960 <e2700> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [VSTATIC]  VAR
+    1:2:3:2:1:2: CCAST 0x55e79dd24dd0 <e8646> {c217} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:2:1:2:1: VARREF 0x55e79dd46720 <e8641> {c217} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_ris [RV] <- VAR 0x55e79dd2a530 <e2694> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_ris [VSTATIC]  WIRE
+    1:2:3:2:2: ASSIGNDLY 0x55e79dd47210 <e7772> {c217} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:2:2:1: VARREF 0x55e79dd472d0 <e7770> {c217} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__rx_hold_reg [RV] <- VAR 0x55e79dd3b150 <e2705> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_hold_reg [VSTATIC]  VAR
+    1:2:3:2:2:2: VARREF 0x55e79dd1f950 <e7771> {c217} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__rx_reg [LV] => VAR 0x55e79dd3b2c0 <e2706> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_reg [VSTATIC]  VAR
+    1:2:3:3: ASSIGNDLY 0x55e79dd47570 <e7775> {c215} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:3:1: CONST 0x55e79dd47630 <e7773> {c215} @dt=0x55e79dcfe400@(G/wu32/16)  16'h0
+    1:2:3:3:2: VARREF 0x55e79dcfa070 <e7774> {c215} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__rx_reg [LV] => VAR 0x55e79dd3b2c0 <e2706> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_reg [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dd09ea0 <e6913> {c209}  ALWAYS
+    1:2:3: IF 0x55e79dd43530 <e6915> {c210}
+    1:2:3:1: VARREF 0x55e79dd43410 <e7776> {c210} @dt=0x55e79dd0f140@(G/wu32/1)  rst [RV] <- VAR 0x55e79dd2e5d0 <e2963> {c86} @dt=0x55e79dd1aae0@(G/w1)  rst [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2: IF 0x55e79dd44000 <e5035> {c212}
+    1:2:3:2:1: AND 0x55e79dd45670 <e7781> {c207} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:1:1: OR 0x55e79dd461b0 <e7779> {c207} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:1:1:1: CCAST 0x55e79dd196b0 <e8655> {c207} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:2:1:1:1:1: VARREF 0x55e79dd3ad80 <e8650> {c207} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go_r1 [RV] <- VAR 0x55e79dd3b880 <e2710> {c113} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go_r1 [VSTATIC]  VAR
+    1:2:3:2:1:1:2: CCAST 0x55e79dd235c0 <e8664> {c207} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:2:1:1:2:1: VARREF 0x55e79dd4a4a0 <e8659> {c207} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go [RV] <- VAR 0x55e79dd29960 <e2700> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [VSTATIC]  VAR
+    1:2:3:2:1:2: CCAST 0x55e79dd33180 <e8673> {c207} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:2:1:2:1: VARREF 0x55e79dd49660 <e8668> {c207} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_fal [RV] <- VAR 0x55e79dd0ae60 <e2695> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_fal [VSTATIC]  WIRE
+    1:2:3:2:2: ASSIGNDLY 0x55e79dd444b0 <e8065> {c212} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:2:2:1: OR 0x55e79dd27950 <e8519> {c212} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:2:2:1:1: AND 0x55e79dd4fd90 <e8462> {c212} @dt=0x55e79dd0e090@(G/wu32/15)
+    1:2:3:2:2:1:1:1: CONST 0x55e79dd4a7a0 <e8470> {c212} @dt=0x55e79dd20ef0@(G/w32)  32'hfffe
+    1:2:3:2:2:1:1:2: SHIFTL 0x55e79dd2b490 <e8461> {c212} @dt=0x55e79dd20ef0@(G/w32)
+    1:2:3:2:2:1:1:2:1: CCAST 0x55e79dd40470 <e8682> {c212} @dt=0x55e79dd0e090@(G/wu32/15) sz32
+    1:2:3:2:2:1:1:2:1:1: VARREF 0x55e79dd0cbb0 <e8677> {c212} @dt=0x55e79dd0e090@(G/wu32/15)  pcm_slv_top__DOT__rx_hold_reg [RV] <- VAR 0x55e79dd3b150 <e2705> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_hold_reg [VSTATIC]  VAR
+    1:2:3:2:2:1:1:2:2: CONST 0x55e79dd2a920 <e8459> {c212} @dt=0x55e79dd20ef0@(G/w32)  32'h1
+    1:2:3:2:2:1:2: CCAST 0x55e79dd0db00 <e8691> {c212} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:2:2:1:2:1: VARREF 0x55e79dd14410 <e8686> {c212} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__rxd [RV] <- VAR 0x55e79dd3b710 <e2709> {c112} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__rxd [VSTATIC]  VAR
+    1:2:3:2:2:2: VARREF 0x55e79dd47420 <e7800> {c212} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__rx_hold_reg [LV] => VAR 0x55e79dd3b150 <e2705> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_hold_reg [VSTATIC]  VAR
+    1:2:3:3: ASSIGNDLY 0x55e79dd44dc0 <e7804> {c210} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:3:1: CONST 0x55e79dd44e80 <e7802> {c210} @dt=0x55e79dcfe400@(G/wu32/16)  16'h0
+    1:2:3:3:2: VARREF 0x55e79dd2b1e0 <e7803> {c210} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__rx_hold_reg [LV] => VAR 0x55e79dd3b150 <e2705> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_hold_reg [VSTATIC]  VAR
+    1:2:3: ASSIGNPOST 0x55e79dd1d270 <e7807> {c176} @dt=0x55e79dcfe400@(G/wu32/16)
+    1:2:3:1: VARREF 0x55e79dd18d10 <e7805> {c176} @dt=0x55e79dcfe400@(G/wu32/16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg [RV] <- VAR 0x55e79dd0d8d0 <e7649> {c106} @dt=0x55e79dd13280@(G/w16)  __Vdly__pcm_slv_top__DOT__tx_hold_reg BLOCKTEMP
+    1:2:3:2: VARREF 0x55e79dd454c0 <e7806> {c176} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__tx_hold_reg [LV] => VAR 0x55e79dd29c40 <e2001> {c106} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__tx_hold_reg [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dd114d0 <e6921> {c138}  ALWAYS
+    1:2:3: IF 0x55e79dd41c40 <e6923> {c139}
+    1:2:3:1: VARREF 0x55e79dd11990 <e7808> {c139} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_fal [RV] <- VAR 0x55e79dd0ae60 <e2695> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_fal [VSTATIC]  WIRE
+    1:2:3:2: ASSIGNDLY 0x55e79dd30c90 <e7811> {c139} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:1: VARREF 0x55e79dd48ac0 <e7809> {c139} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_sync_i [RV] <- VAR 0x55e79dd33b70 <e2981> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_sync_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2:2: VARREF 0x55e79dd3e070 <e7810> {c139} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pcm_sync_r1 [LV] => VAR 0x55e79dd0b140 <e2697> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r1 [VSTATIC]  VAR
+    1:2:3: ASSIGNW 0x55e79dd0da40 <e7816> {c180} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: AND 0x55e79dd491e0 <e7829> {c180} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: CONST 0x55e79dd0e4f0 <e7825> {c180} @dt=0x55e79dd20ef0@(G/w32)  32'h1
+    1:2:3:1:2: SHIFTR 0x55e79dd44570 <e8231> {c180} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:2:1: CCAST 0x55e79dd22e70 <e8700> {c180} @dt=0x55e79dcfe400@(G/wu32/16) sz32
+    1:2:3:1:2:1:1: VARREF 0x55e79dd0dbd0 <e8695> {c180} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__tx_hold_reg [RV] <- VAR 0x55e79dd29c40 <e2001> {c106} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__tx_hold_reg [VSTATIC]  VAR
+    1:2:3:1:2:2: CONST 0x55e79dcfdcb0 <e8222> {c180} @dt=0x55e79dd148d0@(G/swu32/4)  4'hf
+    1:2:3:2: VARREF 0x55e79dcfdf10 <e7815> {c180} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_dout_o [LV] => VAR 0x55e79dd2dab0 <e2993> {c89} @dt=0x55e79dd1aae0@(G/w1)  pcm_dout_o [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2:3: COMMENT 0x55e79dd0ab30 <e6929> {c160}  ALWAYS
+    1:2:3: IF 0x55e79dd33250 <e6931> {c161}
+    1:2:3:1: AND 0x55e79dd459e0 <e8491> {c161} @dt=0x55e79dd20ef0@(G/w32)
+    1:2:3:1:1: CONST 0x55e79dd0cf40 <e8483> {c161} @dt=0x55e79dd20ef0@(G/w32)  32'h2
+    1:2:3:1:2: CCAST 0x55e79dd1ff90 <e8709> {c161} @dt=0x55e79dd2b9b0@(G/wu32/2) sz32
+    1:2:3:1:2:1: VARREF 0x55e79dd22240 <e8704> {c161} @dt=0x55e79dd2b9b0@(G/wu32/2)  we_i [RV] <- VAR 0x55e79dd163b0 <e3017> {c93} @dt=0x55e79dd10f30@(G/w2)  we_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2: ASSIGNDLY 0x55e79dd199e0 <e7841> {c161} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:2:1: VARREF 0x55e79dd150c0 <e7839> {c161} @dt=0x55e79dd0de40@(G/wu32/8)  din_i [RV] <- VAR 0x55e79dd2fcb0 <e2999> {c90} @dt=0x55e79dd0fc70@(G/w8)  din_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2:2: VARREF 0x55e79dcfe2e0 <e7840> {c161} @dt=0x55e79dd0de40@(G/wu32/8)  pcm_slv_top__DOT__tx_hold_byte_h [LV] => VAR 0x55e79dd29db0 <e2702> {c107} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__tx_hold_byte_h [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dcfa4b0 <e6937> {c163}  ALWAYS
+    1:2:3: IF 0x55e79dd218a0 <e6939> {c164}
+    1:2:3:1: AND 0x55e79dd1d910 <e7873> {c164} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: CONST 0x55e79dd4f8a0 <e7869> {c164} @dt=0x55e79dd20ef0@(G/w32)  32'h1
+    1:2:3:1:2: CCAST 0x55e79dd17bf0 <e8718> {c164} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1: VARREF 0x55e79dd0dd20 <e8713> {c164} @dt=0x55e79dd0f140@(G/wu32/1)  we_i [RV] <- VAR 0x55e79dd163b0 <e3017> {c93} @dt=0x55e79dd10f30@(G/w2)  we_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2: ASSIGNDLY 0x55e79dd2beb0 <e7860> {c164} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:2:1: VARREF 0x55e79dd2e840 <e7858> {c164} @dt=0x55e79dd0de40@(G/wu32/8)  din_i [RV] <- VAR 0x55e79dd2fcb0 <e2999> {c90} @dt=0x55e79dd0fc70@(G/w8)  din_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2:2: VARREF 0x55e79dd1f170 <e7859> {c164} @dt=0x55e79dd0de40@(G/wu32/8)  pcm_slv_top__DOT__tx_hold_byte_l [LV] => VAR 0x55e79dd29f20 <e2703> {c107} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__tx_hold_byte_l [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dd0ec10 <e6945> {c124}  ALWAYS
+    1:2:3: ASSIGNDLY 0x55e79dd33040 <e7876> {c125} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: VARREF 0x55e79dd141e0 <e7874> {c125} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_t [RV] <- VAR 0x55e79dd287c0 <e2691> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_t [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd1ad20 <e7875> {c125} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_s [LV] => VAR 0x55e79dd11360 <e2692> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_s [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dd31060 <e6953> {c204}  ALWAYS
+    1:2:3: ASSIGNDLY 0x55e79dd381c0 <e7879> {c205} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: VARREF 0x55e79dd38280 <e7877> {c205} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__rxd_t [RV] <- VAR 0x55e79dd3b5a0 <e2708> {c112} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__rxd_t [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd24fb0 <e7878> {c205} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__rxd [LV] => VAR 0x55e79dd3b710 <e2709> {c112} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__rxd [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dd1b450 <e6961> {c194}  ALWAYS
+    1:2:3: IF 0x55e79dd3e760 <e6963> {c195}
+    1:2:3:1: VARREF 0x55e79dd3e640 <e7880> {c195} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_ris [RV] <- VAR 0x55e79dd2a530 <e2694> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_ris [VSTATIC]  WIRE
+    1:2:3:2: ASSIGNDLY 0x55e79dd3eba0 <e7883> {c195} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:1: VARREF 0x55e79dd3ec60 <e7881> {c195} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go [RV] <- VAR 0x55e79dd29960 <e2700> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [VSTATIC]  VAR
+    1:2:3:2:2: VARREF 0x55e79dd12160 <e7882> {c195} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go_r1 [LV] => VAR 0x55e79dd3b880 <e2710> {c113} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go_r1 [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dcfa1c0 <e6969> {c121}  ALWAYS
+    1:2:3: ASSIGNDLY 0x55e79dd32720 <e7886> {c122} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: VARREF 0x55e79dd12820 <e7884> {c122} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_clk_i [RV] <- VAR 0x55e79dd30ae0 <e2975> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_clk_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2: VARREF 0x55e79dd17ad0 <e7885> {c122} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_t [LV] => VAR 0x55e79dd287c0 <e2691> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_t [VSTATIC]  VAR
+    1:2:3: ASSIGNW 0x55e79dd27cf0 <e7892> {c130} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: AND 0x55e79dd28020 <e7890> {c130} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: NOT 0x55e79dd28b50 <e7888> {c130} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1:1: CCAST 0x55e79dd4ac90 <e8727> {c130} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:1:1:1: VARREF 0x55e79dd17300 <e8722> {c130} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_r [RV] <- VAR 0x55e79dd2a3c0 <e2693> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_r [VSTATIC]  VAR
+    1:2:3:1:2: CCAST 0x55e79dd23ef0 <e8736> {c130} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1: VARREF 0x55e79dd178e0 <e8731> {c130} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_s [RV] <- VAR 0x55e79dd11360 <e2692> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_s [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd2a800 <e7891> {c130} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_ris [LV] => VAR 0x55e79dd2a530 <e2694> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_ris [VSTATIC]  WIRE
+    1:2:3: COMMENT 0x55e79dd16cf0 <e6977> {c201}  ALWAYS
+    1:2:3: IF 0x55e79dd425b0 <e6979> {c202}
+    1:2:3:1: VARREF 0x55e79dd42460 <e7893> {c202} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_fal [RV] <- VAR 0x55e79dd0ae60 <e2695> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_fal [VSTATIC]  WIRE
+    1:2:3:2: ASSIGNDLY 0x55e79dd42a20 <e7896> {c202} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:1: VARREF 0x55e79dd42ae0 <e7894> {c202} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_din_i [RV] <- VAR 0x55e79dd34340 <e2987> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_din_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2:2: VARREF 0x55e79dd3ac60 <e7895> {c202} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__rxd_t [LV] => VAR 0x55e79dd3b5a0 <e2708> {c112} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__rxd_t [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dd535a0 <e6985> {c166}  ALWAYS
+    1:2:3: IF 0x55e79dd33620 <e6987> {c167}
+    1:2:3:1: VARREF 0x55e79dd11b80 <e7897> {c167} @dt=0x55e79dd0f140@(G/wu32/1)  rst [RV] <- VAR 0x55e79dd2e5d0 <e2963> {c86} @dt=0x55e79dd1aae0@(G/w1)  rst [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2: IF 0x55e79dd10860 <e4862> {c169}
+    1:2:3:2:1: VARREF 0x55e79dd10740 <e7898> {c169} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__psync [RV] <- VAR 0x55e79dd0afd0 <e2696> {c102} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__psync [VSTATIC]  VAR
+    1:2:3:2:2: ASSIGNDLY 0x55e79dd16ab0 <e7901> {c169} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:2:1: CONST 0x55e79dd16b70 <e7899> {c169} @dt=0x55e79dd0f140@(G/wu32/1)  1'h1
+    1:2:3:2:2:2: VARREF 0x55e79dd10a20 <e7900> {c169} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go [LV] => VAR 0x55e79dd29960 <e2700> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [VSTATIC]  VAR
+    1:2:3:2:3: IF 0x55e79dd0d800 <e4868> {c171}
+    1:2:3:2:3:1: AND 0x55e79dd45400 <e7906> {c187} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:3:1:1: EQ 0x55e79dd45aa0 <e7904> {c187} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:3:1:1:1: CONST 0x55e79dd350a0 <e7902> {c187} @dt=0x55e79dd1eab0@(G/wu32/4)  4'hf
+    1:2:3:2:3:1:1:2: CCAST 0x55e79dd1edd0 <e8745> {c187} @dt=0x55e79dd1eab0@(G/wu32/4) sz32
+    1:2:3:2:3:1:1:2:1: VARREF 0x55e79dd4a8d0 <e8740> {c187} @dt=0x55e79dd1eab0@(G/wu32/4)  pcm_slv_top__DOT__tx_cnt [RV] <- VAR 0x55e79dd2a090 <e2025> {c108} @dt=0x55e79dd13ca0@(G/w4)  pcm_slv_top__DOT__tx_cnt [VSTATIC]  VAR
+    1:2:3:2:3:1:2: CCAST 0x55e79dd155f0 <e8754> {c187} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:2:3:1:2:1: VARREF 0x55e79dd09320 <e8749> {c187} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_data_le [RV] <- VAR 0x55e79dd29ad0 <e2701> {c105} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_data_le [VSTATIC]  WIRE
+    1:2:3:2:3:2: ASSIGNDLY 0x55e79dd40540 <e7909> {c171} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:2:3:2:1: CONST 0x55e79dcfe170 <e7907> {c171} @dt=0x55e79dd0f140@(G/wu32/1)  1'h0
+    1:2:3:2:3:2:2: VARREF 0x55e79dd268e0 <e7908> {c171} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go [LV] => VAR 0x55e79dd29960 <e2700> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [VSTATIC]  VAR
+    1:2:3:3: ASSIGNDLY 0x55e79dd40600 <e7912> {c167} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:3:1: CONST 0x55e79dd36210 <e7910> {c167} @dt=0x55e79dd0f140@(G/wu32/1)  1'h0
+    1:2:3:3:2: VARREF 0x55e79dd492a0 <e7911> {c167} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go [LV] => VAR 0x55e79dd29960 <e2700> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [VSTATIC]  VAR
+    1:2:3: ASSIGNW 0x55e79dd216a0 <e7918> {c131} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: AND 0x55e79dd2c3e0 <e7916> {c131} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: CCAST 0x55e79dd14630 <e8763> {c131} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:1:1: VARREF 0x55e79dd27b40 <e8758> {c131} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_r [RV] <- VAR 0x55e79dd2a3c0 <e2693> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_r [VSTATIC]  VAR
+    1:2:3:1:2: NOT 0x55e79dd2d020 <e7915> {c131} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:2:1: CCAST 0x55e79dd138a0 <e8772> {c131} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1:1: VARREF 0x55e79dd240c0 <e8767> {c131} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_s [RV] <- VAR 0x55e79dd11360 <e2692> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_s [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd19f00 <e7917> {c131} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_fal [LV] => VAR 0x55e79dd0ae60 <e2695> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_fal [VSTATIC]  WIRE
+    1:2:3: ASSIGNPOST 0x55e79dd45340 <e7921> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)
+    1:2:3:1: VARREF 0x55e79dd488e0 <e7919> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)  __Vdly__pcm_slv_top__DOT__tx_cnt [RV] <- VAR 0x55e79dd27500 <e7651> {c108} @dt=0x55e79dd13ca0@(G/w4)  __Vdly__pcm_slv_top__DOT__tx_cnt BLOCKTEMP
+    1:2:3:2: VARREF 0x55e79dd21240 <e7920> {c185} @dt=0x55e79dd1eab0@(G/wu32/4)  pcm_slv_top__DOT__tx_cnt [LV] => VAR 0x55e79dd2a090 <e2025> {c108} @dt=0x55e79dd13ca0@(G/w4)  pcm_slv_top__DOT__tx_cnt [VSTATIC]  VAR
+    1:2:3: ASSIGNW 0x55e79dd250d0 <e7926> {c158} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: AND 0x55e79dd25190 <e7924> {c158} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: CCAST 0x55e79dd129d0 <e8781> {c158} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:1:1: VARREF 0x55e79dd2c520 <e8776> {c158} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go [RV] <- VAR 0x55e79dd29960 <e2700> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [VSTATIC]  VAR
+    1:2:3:1:2: CCAST 0x55e79dd126c0 <e8790> {c158} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1: VARREF 0x55e79dd2d160 <e8785> {c158} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_ris [RV] <- VAR 0x55e79dd2a530 <e2694> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_ris [VSTATIC]  WIRE
+    1:2:3:2: VARREF 0x55e79dd2de60 <e7925> {c158} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_data_le [LV] => VAR 0x55e79dd29ad0 <e2701> {c105} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_data_le [VSTATIC]  WIRE
+    1:2:3: COMMENT 0x55e79dd53730 <e6993> {c150}  ALWAYS
+    1:2:3: ASSIGNDLY 0x55e79dd2e300 <e7932> {c151} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: AND 0x55e79dd2f1c0 <e7930> {c151} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: NOT 0x55e79dd2f280 <e7928> {c151} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1:1: CCAST 0x55e79dd11830 <e8799> {c151} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:1:1:1: VARREF 0x55e79dd2f610 <e8794> {c151} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pcm_sync_r3 [RV] <- VAR 0x55e79dd297f0 <e2699> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r3 [VSTATIC]  VAR
+    1:2:3:1:2: CCAST 0x55e79dd1e5d0 <e8808> {c151} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1: VARREF 0x55e79dd31780 <e8803> {c151} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pcm_sync_r2 [RV] <- VAR 0x55e79dd0b2b0 <e2698> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r2 [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd2c8d0 <e7931> {c151} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__psync [LV] => VAR 0x55e79dd0afd0 <e2696> {c102} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__psync [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dd56f70 <e7001> {c147}  ALWAYS
+    1:2:3: ASSIGNDLY 0x55e79dd2ab50 <e7935> {c148} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: VARREF 0x55e79dd2bad0 <e7933> {c148} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pcm_sync_r2 [RV] <- VAR 0x55e79dd0b2b0 <e2698> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r2 [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd28dc0 <e7934> {c148} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pcm_sync_r3 [LV] => VAR 0x55e79dd297f0 <e2699> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r3 [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55e79dd56e10 <e7009> {c144}  ALWAYS
+    1:2:3: ASSIGNDLY 0x55e79dd1a5e0 <e7943> {c145} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: AND 0x55e79dd498a0 <e7956> {c145} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: CONST 0x55e79dd16f10 <e7952> {c145} @dt=0x55e79dd20ef0@(G/w32)  32'h1
+    1:2:3:1:2: SHIFTR 0x55e79dcfd330 <e8282> {c145} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:2:1: CCAST 0x55e79dd04490 <e8817> {c145} @dt=0x55e79dd0de40@(G/wu32/8) sz32
+    1:2:3:1:2:1:1: VARREF 0x55e79dd23220 <e8812> {c145} @dt=0x55e79dd0de40@(G/wu32/8)  pcm_slv_top__DOT__psa [RV] <- VAR 0x55e79dd3bb60 <e2712> {c114} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__psa [VSTATIC]  VAR
+    1:2:3:1:2:2: CCAST 0x55e79dd04a90 <e8826> {c145} @dt=0x55e79dd0f410@(G/wu32/3) sz32
+    1:2:3:1:2:2:1: VARREF 0x55e79dd253a0 <e8821> {c145} @dt=0x55e79dd0f410@(G/wu32/3)  ssel [RV] <- VAR 0x55e79dd225e0 <e2969> {c87} @dt=0x55e79dd0e800@(G/w3)  ssel [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:2: VARREF 0x55e79dd2b610 <e7942> {c145} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pcm_sync_r2 [LV] => VAR 0x55e79dd0b2b0 <e2698> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r2 [VSTATIC]  VAR
+    1:2:3: ASSIGNPOST 0x55e79dd2e240 <e7959> {c142} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:1: VARREF 0x55e79dd2c0a0 <e7957> {c142} @dt=0x55e79dd0de40@(G/wu32/8)  __Vdly__pcm_slv_top__DOT__psa [RV] <- VAR 0x55e79dd0ed20 <e7647> {c114} @dt=0x55e79dd0fc70@(G/w8)  __Vdly__pcm_slv_top__DOT__psa BLOCKTEMP
+    1:2:3:2: VARREF 0x55e79dd30470 <e7958> {c142} @dt=0x55e79dd0de40@(G/wu32/8)  pcm_slv_top__DOT__psa [LV] => VAR 0x55e79dd3bb60 <e2712> {c114} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__psa [VSTATIC]  VAR
+    1:2: CFUNC 0x55e79dd5a810 <e7562> {c180}  _settle__TOP__2 [SLOW] [STATICU]
+    1:2:3: ASSIGNW 0x55e79dd22f40 <e7964> {c180} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: AND 0x55e79dd33320 <e7977> {c180} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: CONST 0x55e79dd174f0 <e7973> {c180} @dt=0x55e79dd20ef0@(G/w32)  32'h1
+    1:2:3:1:2: SHIFTR 0x55e79dd2d510 <e8299> {c180} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:2:1: CCAST 0x55e79dd06050 <e8835> {c180} @dt=0x55e79dcfe400@(G/wu32/16) sz32
+    1:2:3:1:2:1:1: VARREF 0x55e79dd1d4f0 <e8830> {c180} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__tx_hold_reg [RV] <- VAR 0x55e79dd29c40 <e2001> {c106} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__tx_hold_reg [VSTATIC]  VAR
+    1:2:3:1:2:2: CONST 0x55e79dd1e210 <e8290> {c180} @dt=0x55e79dd148d0@(G/swu32/4)  4'hf
+    1:2:3:2: VARREF 0x55e79dd1d610 <e7963> {c180} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_dout_o [LV] => VAR 0x55e79dd2dab0 <e2993> {c89} @dt=0x55e79dd1aae0@(G/w1)  pcm_dout_o [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2:3: ASSIGNW 0x55e79dd2aa90 <e7987> {c219} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:1: AND 0x55e79dd2dd20 <e8000> {c219} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:1:1: CONST 0x55e79dd09d50 <e7996> {c219} @dt=0x55e79dd20ef0@(G/w32)  32'hff
+    1:2:3:1:2: COND 0x55e79dd41340 <e7997> {c219} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:1:2:1: CCAST 0x55e79dd17780 <e8844> {c219} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1:1: VARREF 0x55e79dd18470 <e8839> {c219} @dt=0x55e79dd0f140@(G/wu32/1)  re_i [RV] <- VAR 0x55e79dd0cdd0 <e3011> {c92} @dt=0x55e79dd1aae0@(G/w1)  re_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2:2: SHIFTR 0x55e79dd2fb50 <e8316> {c219} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:1:2:2:1: CCAST 0x55e79dd171a0 <e8853> {c219} @dt=0x55e79dcfe400@(G/wu32/16) sz32
+    1:2:3:1:2:2:1:1: VARREF 0x55e79dd18590 <e8848> {c219} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__rx_reg [RV] <- VAR 0x55e79dd3b2c0 <e2706> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_reg [VSTATIC]  VAR
+    1:2:3:1:2:2:2: CONST 0x55e79dd0d580 <e8307> {c219} @dt=0x55e79dd148d0@(G/swu32/4)  4'h8
+    1:2:3:1:2:3: CCAST 0x55e79dd15ed0 <e8862> {c219} @dt=0x55e79dd0de40@(G/wu32/8) sz32
+    1:2:3:1:2:3:1: VARREF 0x55e79dd3e830 <e8857> {c219} @dt=0x55e79dd0de40@(G/wu32/8)  pcm_slv_top__DOT__rx_reg [RV] <- VAR 0x55e79dd3b2c0 <e2706> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_reg [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd3e950 <e7986> {c219} @dt=0x55e79dd0de40@(G/wu32/8)  dout_o [LV] => VAR 0x55e79dd0ac30 <e3005> {c91} @dt=0x55e79dd0fc70@(G/w8)  dout_o [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2:3: ASSIGNW 0x55e79dd28a50 <e8006> {c130} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: AND 0x55e79dd1e6b0 <e8004> {c130} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: NOT 0x55e79dd149f0 <e8002> {c130} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1:1: CCAST 0x55e79dd1e380 <e8871> {c130} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:1:1:1: VARREF 0x55e79dd47760 <e8866> {c130} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_r [RV] <- VAR 0x55e79dd2a3c0 <e2693> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_r [VSTATIC]  VAR
+    1:2:3:1:2: CCAST 0x55e79dd1c840 <e8880> {c130} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1: VARREF 0x55e79dd3aed0 <e8875> {c130} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_s [RV] <- VAR 0x55e79dd11360 <e2692> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_s [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd3aff0 <e8005> {c130} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_ris [LV] => VAR 0x55e79dd2a530 <e2694> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_ris [VSTATIC]  WIRE
+    1:2:3: ASSIGNW 0x55e79dd485e0 <e8012> {c131} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: AND 0x55e79dd23b60 <e8010> {c131} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: CCAST 0x55e79dd25c40 <e8889> {c131} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:1:1: VARREF 0x55e79dd34e00 <e8884> {c131} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_r [RV] <- VAR 0x55e79dd2a3c0 <e2693> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_r [VSTATIC]  VAR
+    1:2:3:1:2: NOT 0x55e79dd2d5d0 <e8009> {c131} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:2:1: CCAST 0x55e79dd0fa30 <e8898> {c131} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1:1: VARREF 0x55e79dd34f20 <e8893> {c131} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_s [RV] <- VAR 0x55e79dd11360 <e2692> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_s [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd41d10 <e8011> {c131} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_fal [LV] => VAR 0x55e79dd0ae60 <e2695> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_fal [VSTATIC]  WIRE
+    1:2:3: ASSIGNW 0x55e79dd2ecc0 <e8017> {c158} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: AND 0x55e79dd32290 <e8015> {c158} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: CCAST 0x55e79dd1a760 <e8907> {c158} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:1:1: VARREF 0x55e79dd41e30 <e8902> {c158} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_go [RV] <- VAR 0x55e79dd29960 <e2700> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [VSTATIC]  VAR
+    1:2:3:1:2: CCAST 0x55e79dd30260 <e8916> {c158} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1: VARREF 0x55e79dd37f20 <e8911> {c158} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__pclk_ris [RV] <- VAR 0x55e79dd2a530 <e2694> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_ris [VSTATIC]  WIRE
+    1:2:3:2: VARREF 0x55e79dd38040 <e8016> {c158} @dt=0x55e79dd0f140@(G/wu32/1)  pcm_slv_top__DOT__tx_data_le [LV] => VAR 0x55e79dd29ad0 <e2701> {c105} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_data_le [VSTATIC]  WIRE
+    1:2: CFUNC 0x55e79dd5aa80 <e7564> {c219}  _combo__TOP__3 [STATICU]
+    1:2:3: ASSIGNW 0x55e79dd4a9f0 <e8027> {c219} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:1: AND 0x55e79dd19de0 <e8040> {c219} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:1:1: CONST 0x55e79dd24940 <e8036> {c219} @dt=0x55e79dd20ef0@(G/w32)  32'hff
+    1:2:3:1:2: COND 0x55e79dd4aab0 <e8037> {c219} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:1:2:1: CCAST 0x55e79dd308b0 <e8925> {c219} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1:1: VARREF 0x55e79dd4ab70 <e8920> {c219} @dt=0x55e79dd0f140@(G/wu32/1)  re_i [RV] <- VAR 0x55e79dd0cdd0 <e3011> {c92} @dt=0x55e79dd1aae0@(G/w1)  re_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2:2: SHIFTR 0x55e79dd3aba0 <e8350> {c219} @dt=0x55e79dd0de40@(G/wu32/8)
+    1:2:3:1:2:2:1: CCAST 0x55e79dd15270 <e8934> {c219} @dt=0x55e79dcfe400@(G/wu32/16) sz32
+    1:2:3:1:2:2:1:1: VARREF 0x55e79dd4ad60 <e8929> {c219} @dt=0x55e79dcfe400@(G/wu32/16)  pcm_slv_top__DOT__rx_reg [RV] <- VAR 0x55e79dd3b2c0 <e2706> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_reg [VSTATIC]  VAR
+    1:2:3:1:2:2:2: CONST 0x55e79dd4ae80 <e8341> {c219} @dt=0x55e79dd148d0@(G/swu32/4)  4'h8
+    1:2:3:1:2:3: CCAST 0x55e79dd0f720 <e8943> {c219} @dt=0x55e79dd0de40@(G/wu32/8) sz32
+    1:2:3:1:2:3:1: VARREF 0x55e79dd4b1b0 <e8938> {c219} @dt=0x55e79dd0de40@(G/wu32/8)  pcm_slv_top__DOT__rx_reg [RV] <- VAR 0x55e79dd3b2c0 <e2706> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_reg [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55e79dd4b530 <e8026> {c219} @dt=0x55e79dd0de40@(G/wu32/8)  dout_o [LV] => VAR 0x55e79dd0ac30 <e3005> {c91} @dt=0x55e79dd0fc70@(G/w8)  dout_o [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2: CFUNC 0x55e79dd4d6e0 <e7566> {c76}  _eval [STATIC]
+    1:2:3: IF 0x55e79dd1d7b0 <e7052> {c121}
+    1:2:3:1: AND 0x55e79dd22790 <e8044> {c121} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:1: CCAST 0x55e79dd265a0 <e8952> {c121} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:1:1: VARREF 0x55e79dd1d090 <e8947> {c121} @dt=0x55e79dd0f140@(G/wu32/1)  clk [RV] <- VAR 0x55e79dd1a430 <e2958> {c86} @dt=0x55e79dd1aae0@(G/w1)  clk [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:1:2: NOT 0x55e79dd25eb0 <e8043> {c121} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1:2:1: CCAST 0x55e79dd194b0 <e8961> {c121} @dt=0x55e79dd0f140@(G/wu32/1) sz32
+    1:2:3:1:2:1:1: VARREF 0x55e79dd570d0 <e8956> {c121} @dt=0x55e79dd0f140@(G/wu32/1)  __Vclklast__TOP__clk [RV] <- VAR 0x55e79dd16940 <e7021> {c86} @dt=0x55e79dd1aae0@(G/w1)  __Vclklast__TOP__clk MODULETEMP
+    1:2:3:2: CCALL 0x55e79dd33420 <e7014> {c122} _sequent__TOP__1 => CFUNC 0x55e79dd21b90 <e7560> {c122}  _sequent__TOP__1 [STATICU]
+    1:2:3: CCALL 0x55e79dd2ea80 <e7062> {c219} _combo__TOP__3 => CFUNC 0x55e79dd5aa80 <e7564> {c219}  _combo__TOP__3 [STATICU]
+    1:2:4: ASSIGN 0x55e79dd3c350 <e8047> {c86} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:4:1: VARREF 0x55e79dd1da70 <e8045> {c86} @dt=0x55e79dd0f140@(G/wu32/1)  clk [RV] <- VAR 0x55e79dd1a430 <e2958> {c86} @dt=0x55e79dd1aae0@(G/w1)  clk [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:4:2: VARREF 0x55e79dd21e90 <e8046> {c86} @dt=0x55e79dd0f140@(G/wu32/1)  __Vclklast__TOP__clk [LV] => VAR 0x55e79dd16940 <e7021> {c86} @dt=0x55e79dd1aae0@(G/w1)  __Vclklast__TOP__clk MODULETEMP
+    1:2: CFUNC 0x55e79dd538c0 <e7568> {c76}  _eval_initial [SLOW] [STATIC]
+    1:2:3: ASSIGN 0x55e79dd1fc00 <e8050> {c86} @dt=0x55e79dd0f140@(G/wu32/1)
+    1:2:3:1: VARREF 0x55e79dd48dc0 <e8048> {c86} @dt=0x55e79dd0f140@(G/wu32/1)  clk [RV] <- VAR 0x55e79dd1a430 <e2958> {c86} @dt=0x55e79dd1aae0@(G/w1)  clk [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:2: VARREF 0x55e79dd2ada0 <e8049> {c86} @dt=0x55e79dd0f140@(G/wu32/1)  __Vclklast__TOP__clk [LV] => VAR 0x55e79dd16940 <e7021> {c86} @dt=0x55e79dd1aae0@(G/w1)  __Vclklast__TOP__clk MODULETEMP
+    1:2: CFUNC 0x55e79dd55e30 <e7570> {c76}  final [SLOW]
+    1:2:2: CSTMT 0x55e79dd497e0 <e6796> {c76}
+    1:2:2:1: TEXT 0x55e79dd17060 <e6797> {c76} "Vpcm_slv_top__Syms* __restrict vlSymsp = this->__VlSymsp;..."
+    1:2:2: CSTMT 0x55e79dd494e0 <e6800> {c76}
+    1:2:2:1: TEXT 0x55e79dd17640 <e6799> {c76} "Vpcm_slv_top* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;..."
+    1:2: CFUNC 0x55e79dd4e8b0 <e7572> {c76}  _eval_settle [SLOW] [STATIC]
+    1:2:3: CCALL 0x55e79dd2f4c0 <e7057> {c180} _settle__TOP__2 => CFUNC 0x55e79dd5a810 <e7562> {c180}  _settle__TOP__2 [SLOW] [STATICU]
+    1:2: CFUNC 0x55e79dd4fac0 <e7574> {c76}  _change_request [STATICU]
+    1:2:3: CHANGEDET 0x55e79dd2bd50 <e7522> {c76}
+    1:2: CFUNC 0x55e79dd49ca0 <e8963> {c76}  _eval_debug_assertions
+    1:2:3: IF 0x55e79dd44630 <e8978> {c86}
+    1:2:3:1: AND 0x55e79dd19090 <e8979> {c86} @dt=0x55e79dd1aae0@(G/w1)
+    1:2:3:1:1: VARREF 0x55e79dd1e7b0 <e8973> {c86} @dt=0x55e79dd1aae0@(G/w1)  clk [RV] <- VAR 0x55e79dd1a430 <e2958> {c86} @dt=0x55e79dd1aae0@(G/w1)  clk [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55e79dd449c0 <e8974> {c86} @dt=0x55e79dd0fc70@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55e79dd44270 <e8976> {c86}
+    1:2:3:2:1: TEXT 0x55e79dd2acb0 <e8977> {c86} "Verilated::overWidthError("clk");"
+    1:2:3: IF 0x55e79dd4a080 <e8996> {c86}
+    1:2:3:1: AND 0x55e79dd2ce10 <e8995> {c86} @dt=0x55e79dd1aae0@(G/w1)
+    1:2:3:1:1: VARREF 0x55e79dd238b0 <e8989> {c86} @dt=0x55e79dd1aae0@(G/w1)  rst [RV] <- VAR 0x55e79dd2e5d0 <e2963> {c86} @dt=0x55e79dd1aae0@(G/w1)  rst [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55e79dd25ad0 <e8990> {c86} @dt=0x55e79dd0fc70@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55e79dcfa890 <e8992> {c86}
+    1:2:3:2:1: TEXT 0x55e79dd27130 <e8993> {c86} "Verilated::overWidthError("rst");"
+    1:2:3: IF 0x55e79dd403a0 <e9013> {c87}
+    1:2:3:1: AND 0x55e79dd440f0 <e9012> {c87} @dt=0x55e79dd0e800@(G/w3)
+    1:2:3:1:1: VARREF 0x55e79dd44b30 <e9006> {c87} @dt=0x55e79dd0e800@(G/w3)  ssel [RV] <- VAR 0x55e79dd225e0 <e2969> {c87} @dt=0x55e79dd0e800@(G/w3)  ssel [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55e79dcfe4e0 <e9007> {c87} @dt=0x55e79dd0fc70@(G/w8)  8'hf8
+    1:2:3:2: CSTMT 0x55e79dd1b8a0 <e9009> {c87}
+    1:2:3:2:1: TEXT 0x55e79dd10930 <e9010> {c87} "Verilated::overWidthError("ssel");"
+    1:2:3: IF 0x55e79dd13bd0 <e9030> {c88}
+    1:2:3:1: AND 0x55e79dd19810 <e9029> {c88} @dt=0x55e79dd1aae0@(G/w1)
+    1:2:3:1:1: VARREF 0x55e79dd44700 <e9023> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_clk_i [RV] <- VAR 0x55e79dd30ae0 <e2975> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_clk_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55e79dd277a0 <e9024> {c88} @dt=0x55e79dd0fc70@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55e79dd3a6e0 <e9026> {c88}
+    1:2:3:2:1: TEXT 0x55e79dd41b10 <e9027> {c88} "Verilated::overWidthError("pcm_clk_i");"
+    1:2:3: IF 0x55e79dd1fd70 <e9047> {c88}
+    1:2:3:1: AND 0x55e79dd30f40 <e9046> {c88} @dt=0x55e79dd1aae0@(G/w1)
+    1:2:3:1:1: VARREF 0x55e79dcfe030 <e9040> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_sync_i [RV] <- VAR 0x55e79dd33b70 <e2981> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_sync_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55e79dd100e0 <e9041> {c88} @dt=0x55e79dd0fc70@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55e79dd14b30 <e9043> {c88}
+    1:2:3:2:1: TEXT 0x55e79dd1ebd0 <e9044> {c88} "Verilated::overWidthError("pcm_sync_i");"
+    1:2:3: IF 0x55e79dd3a610 <e9064> {c88}
+    1:2:3:1: AND 0x55e79dd493c0 <e9063> {c88} @dt=0x55e79dd1aae0@(G/w1)
+    1:2:3:1:1: VARREF 0x55e79dd2c210 <e9057> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_din_i [RV] <- VAR 0x55e79dd34340 <e2987> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_din_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55e79dd2a200 <e9058> {c88} @dt=0x55e79dd0fc70@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55e79dd3b9f0 <e9060> {c88}
+    1:2:3:2:1: TEXT 0x55e79dd1de20 <e9061> {c88} "Verilated::overWidthError("pcm_din_i");"
+    1:2:3: IF 0x55e79dd3a800 <e9081> {c92}
+    1:2:3:1: AND 0x55e79dd15d20 <e9080> {c92} @dt=0x55e79dd1aae0@(G/w1)
+    1:2:3:1:1: VARREF 0x55e79dd49b50 <e9074> {c92} @dt=0x55e79dd1aae0@(G/w1)  re_i [RV] <- VAR 0x55e79dd0cdd0 <e3011> {c92} @dt=0x55e79dd1aae0@(G/w1)  re_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55e79dcfdde0 <e9075> {c92} @dt=0x55e79dd0fc70@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55e79dd133e0 <e9077> {c92}
+    1:2:3:2:1: TEXT 0x55e79dd16200 <e9078> {c92} "Verilated::overWidthError("re_i");"
+    1:2:3: IF 0x55e79dd1bde0 <e9098> {c93}
+    1:2:3:1: AND 0x55e79dd16060 <e9097> {c93} @dt=0x55e79dd10f30@(G/w2)
+    1:2:3:1:1: VARREF 0x55e79dd0d2d0 <e9091> {c93} @dt=0x55e79dd10f30@(G/w2)  we_i [RV] <- VAR 0x55e79dd163b0 <e3017> {c93} @dt=0x55e79dd10f30@(G/w2)  we_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55e79dd272a0 <e9092> {c93} @dt=0x55e79dd0fc70@(G/w8)  8'hfc
+    1:2:3:2: CSTMT 0x55e79dd44c50 <e9094> {c93}
+    1:2:3:2:1: TEXT 0x55e79dd12d20 <e9095> {c93} "Verilated::overWidthError("we_i");"
+    1:2: CFUNC 0x55e79dd189b0 <e9100> {c76}  _ctor_var_reset [SLOW]
+    1:2:3: CRESET 0x55e79dd13e40 <e9103> {c86}
+    1:2:3:1: VARREF 0x55e79dd3b430 <e9102> {c86} @dt=0x55e79dd1aae0@(G/w1)  clk [LV] => VAR 0x55e79dd1a430 <e2958> {c86} @dt=0x55e79dd1aae0@(G/w1)  clk [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd0d6b0 <e9107> {c86}
+    1:2:3:1: VARREF 0x55e79dd22990 <e9105> {c86} @dt=0x55e79dd1aae0@(G/w1)  rst [LV] => VAR 0x55e79dd2e5d0 <e2963> {c86} @dt=0x55e79dd1aae0@(G/w1)  rst [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd4fc40 <e9111> {c87}
+    1:2:3:1: VARREF 0x55e79dd2f900 <e9109> {c87} @dt=0x55e79dd0e800@(G/w3)  ssel [LV] => VAR 0x55e79dd225e0 <e2969> {c87} @dt=0x55e79dd0e800@(G/w3)  ssel [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd345f0 <e9115> {c88}
+    1:2:3:1: VARREF 0x55e79dd1cec0 <e9113> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_clk_i [LV] => VAR 0x55e79dd30ae0 <e2975> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_clk_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd25690 <e9119> {c88}
+    1:2:3:1: VARREF 0x55e79dd1c9a0 <e9117> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_sync_i [LV] => VAR 0x55e79dd33b70 <e2981> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_sync_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd10c90 <e9123> {c88}
+    1:2:3:1: VARREF 0x55e79dd42c00 <e9121> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_din_i [LV] => VAR 0x55e79dd34340 <e2987> {c88} @dt=0x55e79dd1aae0@(G/w1)  pcm_din_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd1ef30 <e9127> {c89}
+    1:2:3:1: VARREF 0x55e79dd12b30 <e9125> {c89} @dt=0x55e79dd1aae0@(G/w1)  pcm_dout_o [LV] => VAR 0x55e79dd2dab0 <e2993> {c89} @dt=0x55e79dd1aae0@(G/w1)  pcm_dout_o [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd20560 <e9131> {c90}
+    1:2:3:1: VARREF 0x55e79dd157c0 <e9129> {c90} @dt=0x55e79dd0fc70@(G/w8)  din_i [LV] => VAR 0x55e79dd2fcb0 <e2999> {c90} @dt=0x55e79dd0fc70@(G/w8)  din_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd115c0 <e9135> {c91}
+    1:2:3:1: VARREF 0x55e79dd10210 <e9133> {c91} @dt=0x55e79dd0fc70@(G/w8)  dout_o [LV] => VAR 0x55e79dd0ac30 <e3005> {c91} @dt=0x55e79dd0fc70@(G/w8)  dout_o [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd44850 <e9139> {c92}
+    1:2:3:1: VARREF 0x55e79dd290b0 <e9137> {c92} @dt=0x55e79dd1aae0@(G/w1)  re_i [LV] => VAR 0x55e79dd0cdd0 <e3011> {c92} @dt=0x55e79dd1aae0@(G/w1)  re_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd14050 <e9143> {c93}
+    1:2:3:1: VARREF 0x55e79dd4a270 <e9141> {c93} @dt=0x55e79dd10f30@(G/w2)  we_i [LV] => VAR 0x55e79dd163b0 <e3017> {c93} @dt=0x55e79dd10f30@(G/w2)  we_i [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55e79dd14110 <e9147> {c100}
+    1:2:3:1: VARREF 0x55e79dd451a0 <e9145> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_t [LV] => VAR 0x55e79dd287c0 <e2691> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_t [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd12ff0 <e9151> {c100}
+    1:2:3:1: VARREF 0x55e79dd313b0 <e9149> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_s [LV] => VAR 0x55e79dd11360 <e2692> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_s [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd130b0 <e9155> {c100}
+    1:2:3:1: VARREF 0x55e79dd44fb0 <e9153> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_r [LV] => VAR 0x55e79dd2a3c0 <e2693> {c100} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_r [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd13610 <e9159> {c101}
+    1:2:3:1: VARREF 0x55e79dd3be00 <e9157> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_ris [LV] => VAR 0x55e79dd2a530 <e2694> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_ris [VSTATIC]  WIRE
+    1:2:3: CRESET 0x55e79dd12430 <e9163> {c101}
+    1:2:3:1: VARREF 0x55e79dd136d0 <e9161> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_fal [LV] => VAR 0x55e79dd0ae60 <e2695> {c101} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pclk_fal [VSTATIC]  WIRE
+    1:2:3: CRESET 0x55e79dd3fbb0 <e9167> {c102}
+    1:2:3:1: VARREF 0x55e79dd124f0 <e9165> {c102} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__psync [LV] => VAR 0x55e79dd0afd0 <e2696> {c102} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__psync [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd4afb0 <e9171> {c103}
+    1:2:3:1: VARREF 0x55e79dd3fc70 <e9169> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r1 [LV] => VAR 0x55e79dd0b140 <e2697> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r1 [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd0ea00 <e9175> {c103}
+    1:2:3:1: VARREF 0x55e79dd4b070 <e9173> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r2 [LV] => VAR 0x55e79dd0b2b0 <e2698> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r2 [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd26ac0 <e9179> {c103}
+    1:2:3:1: VARREF 0x55e79dd0eac0 <e9177> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r3 [LV] => VAR 0x55e79dd297f0 <e2699> {c103} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__pcm_sync_r3 [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd1bff0 <e9183> {c104}
+    1:2:3:1: VARREF 0x55e79dd26b80 <e9181> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [LV] => VAR 0x55e79dd29960 <e2700> {c104} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd11e50 <e9187> {c105}
+    1:2:3:1: VARREF 0x55e79dd1c0b0 <e9185> {c105} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_data_le [LV] => VAR 0x55e79dd29ad0 <e2701> {c105} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_data_le [VSTATIC]  WIRE
+    1:2:3: CRESET 0x55e79dd4b2d0 <e9191> {c106}
+    1:2:3:1: VARREF 0x55e79dd11f10 <e9189> {c106} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__tx_hold_reg [LV] => VAR 0x55e79dd29c40 <e2001> {c106} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__tx_hold_reg [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd3a8d0 <e9195> {c107}
+    1:2:3:1: VARREF 0x55e79dd4b390 <e9193> {c107} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__tx_hold_byte_h [LV] => VAR 0x55e79dd29db0 <e2702> {c107} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__tx_hold_byte_h [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd55ff0 <e9199> {c107}
+    1:2:3:1: VARREF 0x55e79dd3a990 <e9197> {c107} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__tx_hold_byte_l [LV] => VAR 0x55e79dd29f20 <e2703> {c107} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__tx_hold_byte_l [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd56200 <e9203> {c108}
+    1:2:3:1: VARREF 0x55e79dd560b0 <e9201> {c108} @dt=0x55e79dd13ca0@(G/w4)  pcm_slv_top__DOT__tx_cnt [LV] => VAR 0x55e79dd2a090 <e2025> {c108} @dt=0x55e79dd13ca0@(G/w4)  pcm_slv_top__DOT__tx_cnt [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd282d0 <e9207> {c110}
+    1:2:3:1: VARREF 0x55e79dd28180 <e9205> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_hold_reg [LV] => VAR 0x55e79dd3b150 <e2705> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_hold_reg [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd4c8a0 <e9211> {c110}
+    1:2:3:1: VARREF 0x55e79dd28390 <e9209> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_reg [LV] => VAR 0x55e79dd3b2c0 <e2706> {c110} @dt=0x55e79dd13280@(G/w16)  pcm_slv_top__DOT__rx_reg [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd4ca80 <e9215> {c112}
+    1:2:3:1: VARREF 0x55e79dd4c960 <e9213> {c112} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__rxd_t [LV] => VAR 0x55e79dd3b5a0 <e2708> {c112} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__rxd_t [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd14e40 <e9219> {c112}
+    1:2:3:1: VARREF 0x55e79dd14d20 <e9217> {c112} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__rxd [LV] => VAR 0x55e79dd3b710 <e2709> {c112} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__rxd [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd4cb40 <e9223> {c113}
+    1:2:3:1: VARREF 0x55e79dd14f00 <e9221> {c113} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go_r1 [LV] => VAR 0x55e79dd3b880 <e2710> {c113} @dt=0x55e79dd1aae0@(G/w1)  pcm_slv_top__DOT__tx_go_r1 [VSTATIC]  VAR
+    1:2:3: CRESET 0x55e79dd3d6b0 <e9227#> {c114}
+    1:2:3:1: VARREF 0x55e79dd3d590 <e9225> {c114} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__psa [LV] => VAR 0x55e79dd3bb60 <e2712> {c114} @dt=0x55e79dd0fc70@(G/w8)  pcm_slv_top__DOT__psa [VSTATIC]  VAR
+    2: CFILE 0x55e79dd3d7d0 <e9228#> {a0}  obj_dir/Vpcm_slv_top__Syms.cpp [SRC] [SLOW]
+    2: CFILE 0x55e79dd42770 <e9230#> {a0}  obj_dir/Vpcm_slv_top__Syms.h [SLOW]
+    2: CFILE 0x55e79dd428f0 <e9232#> {a0}  obj_dir/Vpcm_slv_top.h
+    2: CFILE 0x55e79dd54700 <e9234#> {a0}  obj_dir/Vpcm_slv_top.cpp [SRC]
+    3: TYPETABLE 0x55e79dced530 <e2> {a0}
+		detailed  ->  BASICDTYPE 0x55e79dd1aae0 <e459> {c130} @dt=this@(G/w1)  logic [GENERIC] kwd=logic
+		detailed  ->  BASICDTYPE 0x55e79dd10f30 <e1959> {c93} @dt=this@(G/w2)  logic [GENERIC] kwd=logic range=[1:0]
+		detailed  ->  BASICDTYPE 0x55e79dd0e800 <e1895> {c87} @dt=this@(G/w3)  logic [GENERIC] kwd=logic range=[2:0]
+		detailed  ->  BASICDTYPE 0x55e79dd13ca0 <e2024> {c108} @dt=this@(G/w4)  logic [GENERIC] kwd=logic range=[3:0]
+		detailed  ->  BASICDTYPE 0x55e79dd0fc70 <e1935> {c90} @dt=this@(G/w8)  logic [GENERIC] kwd=logic range=[7:0]
+		detailed  ->  BASICDTYPE 0x55e79dd13280 <e2000> {c106} @dt=this@(G/w16)  logic [GENERIC] kwd=logic range=[15:0]
+		detailed  ->  BASICDTYPE 0x55e79dd0f140 <e7672> {c183} @dt=this@(G/wu32/1)  logic [GENERIC] kwd=logic range=[31:0]
+		detailed  ->  BASICDTYPE 0x55e79dd2b9b0 <e7832> {c161} @dt=this@(G/wu32/2)  logic [GENERIC] kwd=logic range=[31:0]
+		detailed  ->  BASICDTYPE 0x55e79dd0f410 <e7939> {c145} @dt=this@(G/wu32/3)  logic [GENERIC] kwd=logic range=[31:0]
+		detailed  ->  BASICDTYPE 0x55e79dd1eab0 <e7654> {c185} @dt=this@(G/wu32/4)  logic [GENERIC] kwd=logic range=[31:0]
+		detailed  ->  BASICDTYPE 0x55e79dd148d0 <e7734> {c178} @dt=this@(G/swu32/4)  logic [GENERIC] kwd=logic range=[31:0]
+		detailed  ->  BASICDTYPE 0x55e79dd29680 <e7704> {c142} @dt=this@(G/wu32/7)  logic [GENERIC] kwd=logic range=[31:0]
+		detailed  ->  BASICDTYPE 0x55e79dd0de40 <e7660> {c142} @dt=this@(G/wu32/8)  logic [GENERIC] kwd=logic range=[31:0]
+		detailed  ->  BASICDTYPE 0x55e79dd0e090 <e7738> {c178} @dt=this@(G/wu32/15)  logic [GENERIC] kwd=logic range=[31:0]
+		detailed  ->  BASICDTYPE 0x55e79dcfe400 <e7666> {c176} @dt=this@(G/wu32/16)  logic [GENERIC] kwd=logic range=[31:0]
+		detailed  ->  BASICDTYPE 0x55e79dd20ef0 <e2739> {c142} @dt=this@(G/w32)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55e79dd1aae0 <e459> {c130} @dt=this@(G/w1)  logic [GENERIC] kwd=logic
+    3:1: BASICDTYPE 0x55e79dd0e800 <e1895> {c87} @dt=this@(G/w3)  logic [GENERIC] kwd=logic range=[2:0]
+    3:1: BASICDTYPE 0x55e79dd0fc70 <e1935> {c90} @dt=this@(G/w8)  logic [GENERIC] kwd=logic range=[7:0]
+    3:1: BASICDTYPE 0x55e79dd10f30 <e1959> {c93} @dt=this@(G/w2)  logic [GENERIC] kwd=logic range=[1:0]
+    3:1: BASICDTYPE 0x55e79dd13280 <e2000> {c106} @dt=this@(G/w16)  logic [GENERIC] kwd=logic range=[15:0]
+    3:1: BASICDTYPE 0x55e79dd13ca0 <e2024> {c108} @dt=this@(G/w4)  logic [GENERIC] kwd=logic range=[3:0]
+    3:1: BASICDTYPE 0x55e79dd20ef0 <e2739> {c142} @dt=this@(G/w32)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55e79dd1eab0 <e7654> {c185} @dt=this@(G/wu32/4)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55e79dd0de40 <e7660> {c142} @dt=this@(G/wu32/8)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55e79dcfe400 <e7666> {c176} @dt=this@(G/wu32/16)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55e79dd0f140 <e7672> {c183} @dt=this@(G/wu32/1)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55e79dd29680 <e7704> {c142} @dt=this@(G/wu32/7)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55e79dd148d0 <e7734> {c178} @dt=this@(G/swu32/4)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55e79dd0e090 <e7738> {c178} @dt=this@(G/wu32/15)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55e79dd2b9b0 <e7832> {c161} @dt=this@(G/wu32/2)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55e79dd0f410 <e7939> {c145} @dt=this@(G/wu32/3)  logic [GENERIC] kwd=logic range=[31:0]

@@ -1,0 +1,224 @@
+Verilator Tree Dump (format 0x3900) from <e3116> to <e3123>
+     NETLIST 0x55f07c637eb0 <e1> {a0}  $root [1ps/1ps]
+    1: MODULE 0x55f07c64c050 <e1038> {c1}  TOP  L1 [P] [1ps]
+    1:2: VAR 0x55f07c64b910 <e1042> {c9} @dt=0x55f07c653400@(G/w1)  blif_clk_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2: VAR 0x55f07c64c570 <e1047> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2: VAR 0x55f07c64c800 <e1053> {c11} @dt=0x55f07c653400@(G/w1)  G0 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55f07c64a760 <e1059> {c12} @dt=0x55f07c653400@(G/w1)  G1 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55f07c64aaf0 <e1065> {c13} @dt=0x55f07c653400@(G/w1)  G2 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55f07c64ae80 <e1071> {c14} @dt=0x55f07c653400@(G/w1)  G3 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55f07c64b210 <e1077> {c15} @dt=0x55f07c653400@(G/w1)  G17 [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2: VAR 0x55f07c660770 <e922> {c16} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G5 [VSTATIC]  VAR
+    1:2: VAR 0x55f07c6608e0 <e923> {c17} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G6 [VSTATIC]  VAR
+    1:2: VAR 0x55f07c660a50 <e924> {c18} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G7 [VSTATIC]  VAR
+    1:2: VAR 0x55f07c660bc0 <e925> {c19} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G8 [VSTATIC]  WIRE
+    1:2: VAR 0x55f07c660d30 <e926> {c20} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G11 [VSTATIC]  WIRE
+    1:2: VAR 0x55f07c661460 <e931> {c25} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G12 [VSTATIC]  WIRE
+    1:2: TOPSCOPE 0x55f07c653e40 <e1556> {c1}
+    1:2:2: SCOPE 0x55f07c64b110 <e1811> {c1}  TOP
+    1:2: VAR 0x55f07c64f4b0 <e2343> {c9} @dt=0x55f07c653400@(G/w1)  __Vclklast__TOP__blif_clk_net MODULETEMP
+    1:2: VAR 0x55f07c64f1a0 <e2380> {c10} @dt=0x55f07c653400@(G/w1)  __Vclklast__TOP__blif_reset_net MODULETEMP
+    1:2: CFUNC 0x55f07c649e80 <e2546> {c30}  _sequent__TOP__1 [STATICU]
+    1:2:3: COMMENT 0x55f07c6564f0 <e2315> {c28}  ALWAYS
+    1:2:3: ASSIGNDLY 0x55f07c64bbb0 <e2643> {c30} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1: AND 0x55f07c65a690 <e2641> {c30} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1: NOT 0x55f07c659ba0 <e2636> {c30} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1:1: CCAST 0x55f07c64d460 <e2772> {c29} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:1:1:1: VARREF 0x55f07c651840 <e2767> {c29} @dt=0x55f07c65a470@(G/wu32/1)  blif_reset_net [RV] <- VAR 0x55f07c64c570 <e1047> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:1:2: AND 0x55f07c662d70 <e2640> {c51} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:1: CCAST 0x55f07c64d520 <e2781> {c43} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:1:1: VARREF 0x55f07c64d7f0 <e2776> {c43} @dt=0x55f07c65a470@(G/wu32/1)  G0 [RV] <- VAR 0x55f07c64c800 <e1053> {c11} @dt=0x55f07c653400@(G/w1)  G0 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2:2: NOT 0x55f07c662e30 <e2639> {c51} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1: CCAST 0x55f07c659790 <e2790> {c51} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:2:1:1: VARREF 0x55f07c662ef0 <e2785> {c51} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G11 [RV] <- VAR 0x55f07c660d30 <e926> {c20} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G11 [VSTATIC]  WIRE
+    1:2:3:2: VARREF 0x55f07c652540 <e2642> {c30} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G5 [LV] => VAR 0x55f07c660770 <e922> {c16} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G5 [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55f07c6634a0 <e2323> {c33}  ALWAYS
+    1:2:3: ASSIGNDLY 0x55f07c658120 <e2649> {c35} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1: AND 0x55f07c658700 <e2647> {c35} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1: NOT 0x55f07c658840 <e2645> {c35} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1:1: CCAST 0x55f07c65c9b0 <e2799> {c34} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:1:1:1: VARREF 0x55f07c652200 <e2794> {c34} @dt=0x55f07c65a470@(G/wu32/1)  blif_reset_net [RV] <- VAR 0x55f07c64c570 <e1047> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:1:2: CCAST 0x55f07c653340 <e2808> {c37} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:1: VARREF 0x55f07c652320 <e2803> {c37} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G11 [RV] <- VAR 0x55f07c660d30 <e926> {c20} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G11 [VSTATIC]  WIRE
+    1:2:3:2: VARREF 0x55f07c64ac60 <e2648> {c35} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G6 [LV] => VAR 0x55f07c6608e0 <e923> {c17} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G6 [VSTATIC]  VAR
+    1:2:3: COMMENT 0x55f07c6690b0 <e2331> {c38}  ALWAYS
+    1:2:3: ASSIGNDLY 0x55f07c6557c0 <e2659> {c40} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1: AND 0x55f07c658020 <e2671> {c40} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1: CONST 0x55f07c653720 <e2667> {c40} @dt=0x55f07c65b2c0@(G/w32)  32'h1
+    1:2:3:1:2: AND 0x55f07c656160 <e2668> {c40} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:1: NOT 0x55f07c656650 <e2651> {c40} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:1:1: CCAST 0x55f07c652cb0 <e2817> {c39} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:1:1:1: VARREF 0x55f07c64d6d0 <e2812> {c39} @dt=0x55f07c65a470@(G/wu32/1)  blif_reset_net [RV] <- VAR 0x55f07c64c570 <e1047> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:1:2:2: AND 0x55f07c662b30 <e2656> {c48} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1: NOT 0x55f07c662bf0 <e2653> {c48} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1:1: CCAST 0x55f07c655470 <e2826> {c48} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:2:1:1:1: VARREF 0x55f07c651500 <e2821> {c48} @dt=0x55f07c65a470@(G/wu32/1)  G2 [RV] <- VAR 0x55f07c64aaf0 <e1065> {c13} @dt=0x55f07c653400@(G/w1)  G2 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2:2:2: NOT 0x55f07c662cb0 <e2655> {c48} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:2:1: CCAST 0x55f07c65a0a0 <e2835> {c48} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:2:2:1:1: VARREF 0x55f07c665450 <e2830> {c48} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G12 [RV] <- VAR 0x55f07c661460 <e931> {c25} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G12 [VSTATIC]  WIRE
+    1:2:3:2: VARREF 0x55f07c665a50 <e2658> {c40} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G7 [LV] => VAR 0x55f07c660a50 <e924> {c18} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G7 [VSTATIC]  VAR
+    1:2: CFUNC 0x55f07c664eb0 <e2548> {c44}  _settle__TOP__2 [STATICU]
+    1:2:3: ASSIGNW 0x55f07c65b200 <e2677> {c44} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1: AND 0x55f07c656f20 <e2675> {c44} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1: NOT 0x55f07c6599c0 <e2673> {c43} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1:1: CCAST 0x55f07c65a3b0 <e2844> {c43} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:1:1:1: VARREF 0x55f07c64d910 <e2839> {c43} @dt=0x55f07c65a470@(G/wu32/1)  G0 [RV] <- VAR 0x55f07c64c800 <e1053> {c11} @dt=0x55f07c653400@(G/w1)  G0 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CCAST 0x55f07c657730 <e2853> {c44} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:1: VARREF 0x55f07c655a50 <e2848> {c44} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G6 [RV] <- VAR 0x55f07c6608e0 <e923> {c17} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G6 [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55f07c654420 <e2676> {c44} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G8 [LV] => VAR 0x55f07c660bc0 <e925> {c19} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G8 [VSTATIC]  WIRE
+    1:2:3: ASSIGNW 0x55f07c665870 <e2684> {c49} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1: AND 0x55f07c661750 <e2697> {c49} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1: CONST 0x55f07c64cab0 <e2693> {c49} @dt=0x55f07c65b2c0@(G/w32)  32'h1
+    1:2:3:1:2: AND 0x55f07c645190 <e2694> {c49} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:1: NOT 0x55f07c6605f0 <e2679> {c49} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:1:1: CCAST 0x55f07c654ab0 <e2862> {c49} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:1:1:1: VARREF 0x55f07c65db00 <e2857> {c49} @dt=0x55f07c65a470@(G/wu32/1)  G1 [RV] <- VAR 0x55f07c64a760 <e1059> {c12} @dt=0x55f07c653400@(G/w1)  G1 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2:2: NOT 0x55f07c65dc20 <e2681> {c49} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1: CCAST 0x55f07c64cd80 <e2871> {c49} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:2:1:1: VARREF 0x55f07c666530 <e2866> {c49} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G7 [RV] <- VAR 0x55f07c660a50 <e924> {c18} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G7 [VSTATIC]  VAR
+    1:2:3:2: VARREF 0x55f07c666650 <e2683> {c49} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G12 [LV] => VAR 0x55f07c661460 <e931> {c25} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G12 [VSTATIC]  WIRE
+    1:2:3: ASSIGNW 0x55f07c6552e0 <e2712> {c45} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1: AND 0x55f07c64d5e0 <e2725> {c45} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1: CONST 0x55f07c654d10 <e2721> {c45} @dt=0x55f07c65b2c0@(G/w32)  32'h1
+    1:2:3:1:2: AND 0x55f07c654fa0 <e2722> {c45} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:1: NOT 0x55f07c65ac20 <e2699> {c45} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:1:1: CCAST 0x55f07c64d260 <e2880> {c45} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:1:1:1: VARREF 0x55f07c64ce40 <e2875> {c45} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G5 [RV] <- VAR 0x55f07c660770 <e922> {c16} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G5 [VSTATIC]  VAR
+    1:2:3:1:2:2: NOT 0x55f07c65de60 <e2709> {c45} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1: OR 0x55f07c656b20 <e2708> {c47} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1:1: NOT 0x55f07c65b510 <e2703> {c47} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1:1:1: OR 0x55f07c65aa10 <e2702> {c52} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1:1:1:1: CCAST 0x55f07c666ed0 <e2889> {c52} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:2:1:1:1:1:1: VARREF 0x55f07c650e80 <e2884> {c52} @dt=0x55f07c65a470@(G/wu32/1)  G3 [RV] <- VAR 0x55f07c64ae80 <e1071> {c14} @dt=0x55f07c653400@(G/w1)  G3 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2:2:1:1:1:2: CCAST 0x55f07c65b6f0 <e2898> {c52} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:2:1:1:1:2:1: VARREF 0x55f07c650260 <e2893> {c52} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G8 [RV] <- VAR 0x55f07c660bc0 <e925> {c19} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G8 [VSTATIC]  WIRE
+    1:2:3:1:2:2:1:2: NOT 0x55f07c653cb0 <e2707> {c47} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1:2:1: OR 0x55f07c650b40 <e2706> {c50} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1:2:1:1: CCAST 0x55f07c657830 <e2907> {c50} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:2:1:2:1:1:1: VARREF 0x55f07c652660 <e2902> {c50} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G12 [RV] <- VAR 0x55f07c661460 <e931> {c25} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G12 [VSTATIC]  WIRE
+    1:2:3:1:2:2:1:2:1:2: CCAST 0x55f07c65b7f0 <e2916> {c50} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:2:1:2:1:2:1: VARREF 0x55f07c651fe0 <e2911> {c50} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G8 [RV] <- VAR 0x55f07c660bc0 <e925> {c19} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G8 [VSTATIC]  WIRE
+    1:2:3:2: VARREF 0x55f07c64c190 <e2711> {c45} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G11 [LV] => VAR 0x55f07c660d30 <e926> {c20} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G11 [VSTATIC]  WIRE
+    1:2:3: ASSIGNW 0x55f07c6512e0 <e2729> {c46} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1: AND 0x55f07c6615d0 <e2742> {c46} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1: CONST 0x55f07c655ed0 <e2738> {c46} @dt=0x55f07c65b2c0@(G/w32)  32'h1
+    1:2:3:1:2: NOT 0x55f07c660530 <e2739> {c46} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:1: CCAST 0x55f07c65ccd0 <e2925> {c46} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:1:1: VARREF 0x55f07c665750 <e2920> {c46} @dt=0x55f07c65a470@(G/wu32/1)  s27_bench__DOT__G11 [RV] <- VAR 0x55f07c660d30 <e926> {c20} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G11 [VSTATIC]  WIRE
+    1:2:3:2: VARREF 0x55f07c645070 <e2728> {c46} @dt=0x55f07c65a470@(G/wu32/1)  G17 [LV] => VAR 0x55f07c64b210 <e1077> {c15} @dt=0x55f07c653400@(G/w1)  G17 [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2: CFUNC 0x55f07c663990 <e2552> {c1}  _eval [STATIC]
+    1:2:3: IF 0x55f07c656a50 <e2417> {c28}
+    1:2:3:1: OR 0x55f07c65fb30 <e2751> {c28} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1: AND 0x55f07c665e70 <e2746> {c28} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1:1: CCAST 0x55f07c668ef0 <e2934> {c28} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:1:1:1: VARREF 0x55f07c6669a0 <e2929> {c28} @dt=0x55f07c65a470@(G/wu32/1)  blif_clk_net [RV] <- VAR 0x55f07c64b910 <e1042> {c9} @dt=0x55f07c653400@(G/w1)  blif_clk_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:1:1:2: NOT 0x55f07c657140 <e2745> {c28} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:1:2:1: CCAST 0x55f07c649d80 <e2943> {c28} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:1:2:1:1: VARREF 0x55f07c666ac0 <e2938> {c28} @dt=0x55f07c65a470@(G/wu32/1)  __Vclklast__TOP__blif_clk_net [RV] <- VAR 0x55f07c64f4b0 <e2343> {c9} @dt=0x55f07c653400@(G/w1)  __Vclklast__TOP__blif_clk_net MODULETEMP
+    1:2:3:1:2: AND 0x55f07c65cb90 <e2750> {c28} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:1: CCAST 0x55f07c6508e0 <e2952> {c28} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:1:1: VARREF 0x55f07c666d80 <e2947> {c28} @dt=0x55f07c65a470@(G/wu32/1)  blif_reset_net [RV] <- VAR 0x55f07c64c570 <e1047> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:1:2:2: NOT 0x55f07c666770 <e2749> {c28} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1:2:2:1: CCAST 0x55f07c64aff0 <e2961> {c28} @dt=0x55f07c65a470@(G/wu32/1) sz32
+    1:2:3:1:2:2:1:1: VARREF 0x55f07c65fc40 <e2956> {c28} @dt=0x55f07c65a470@(G/wu32/1)  __Vclklast__TOP__blif_reset_net [RV] <- VAR 0x55f07c64f1a0 <e2380> {c10} @dt=0x55f07c653400@(G/w1)  __Vclklast__TOP__blif_reset_net MODULETEMP
+    1:2:3:2: CCALL 0x55f07c65b930 <e2336> {c30} _sequent__TOP__1 => CFUNC 0x55f07c649e80 <e2546> {c30}  _sequent__TOP__1 [STATICU]
+    1:2:3: CCALL 0x55f07c64c6e0 <e2594> {c44} _settle__TOP__2 => CFUNC 0x55f07c664eb0 <e2548> {c44}  _settle__TOP__2 [STATICU]
+    1:2:4: ASSIGN 0x55f07c65a590 <e2754> {c9} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:4:1: VARREF 0x55f07c668c20 <e2752> {c9} @dt=0x55f07c65a470@(G/wu32/1)  blif_clk_net [RV] <- VAR 0x55f07c64b910 <e1042> {c9} @dt=0x55f07c653400@(G/w1)  blif_clk_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:4:2: VARREF 0x55f07c65fa10 <e2753> {c9} @dt=0x55f07c65a470@(G/wu32/1)  __Vclklast__TOP__blif_clk_net [LV] => VAR 0x55f07c64f4b0 <e2343> {c9} @dt=0x55f07c653400@(G/w1)  __Vclklast__TOP__blif_clk_net MODULETEMP
+    1:2:4: ASSIGN 0x55f07c666170 <e2757> {c10} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:4:1: VARREF 0x55f07c666c60 <e2755> {c10} @dt=0x55f07c65a470@(G/wu32/1)  blif_reset_net [RV] <- VAR 0x55f07c64c570 <e1047> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:4:2: VARREF 0x55f07c65e560 <e2756> {c10} @dt=0x55f07c65a470@(G/wu32/1)  __Vclklast__TOP__blif_reset_net [LV] => VAR 0x55f07c64f1a0 <e2380> {c10} @dt=0x55f07c653400@(G/w1)  __Vclklast__TOP__blif_reset_net MODULETEMP
+    1:2: CFUNC 0x55f07c669420 <e2554> {c1}  _eval_initial [SLOW] [STATIC]
+    1:2:3: ASSIGN 0x55f07c659ca0 <e2760> {c9} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1: VARREF 0x55f07c665930 <e2758> {c9} @dt=0x55f07c65a470@(G/wu32/1)  blif_clk_net [RV] <- VAR 0x55f07c64b910 <e1042> {c9} @dt=0x55f07c653400@(G/w1)  blif_clk_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:2: VARREF 0x55f07c665d50 <e2759> {c9} @dt=0x55f07c65a470@(G/wu32/1)  __Vclklast__TOP__blif_clk_net [LV] => VAR 0x55f07c64f4b0 <e2343> {c9} @dt=0x55f07c653400@(G/w1)  __Vclklast__TOP__blif_clk_net MODULETEMP
+    1:2:3: ASSIGN 0x55f07c665b70 <e2763> {c10} @dt=0x55f07c65a470@(G/wu32/1)
+    1:2:3:1: VARREF 0x55f07c65e2a0 <e2761> {c10} @dt=0x55f07c65a470@(G/wu32/1)  blif_reset_net [RV] <- VAR 0x55f07c64c570 <e1047> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:2: VARREF 0x55f07c65e3c0 <e2762> {c10} @dt=0x55f07c65a470@(G/wu32/1)  __Vclklast__TOP__blif_reset_net [LV] => VAR 0x55f07c64f1a0 <e2380> {c10} @dt=0x55f07c653400@(G/w1)  __Vclklast__TOP__blif_reset_net MODULETEMP
+    1:2: CFUNC 0x55f07c669260 <e2556> {c1}  final [SLOW]
+    1:2:2: CSTMT 0x55f07c666470 <e2283> {c1}
+    1:2:2:1: TEXT 0x55f07c6454b0 <e2284> {c1} "Vs27__Syms* __restrict vlSymsp = this->__VlSymsp;..."
+    1:2:2: CSTMT 0x55f07c653970 <e2287> {c1}
+    1:2:2:1: TEXT 0x55f07c64b680 <e2286> {c1} "Vs27* __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;..."
+    1:2: CFUNC 0x55f07c660080 <e2558> {c1}  _eval_settle [SLOW] [STATIC]
+    1:2:3: CCALL 0x55f07c64bf40 <e2422> {c44} _settle__TOP__2 => CFUNC 0x55f07c664eb0 <e2548> {c44}  _settle__TOP__2 [STATICU]
+    1:2: CFUNC 0x55f07c664120 <e2560> {c1}  _change_request [STATICU]
+    1:2:3: CHANGEDET 0x55f07c652d70 <e2529> {c1}
+    1:2: CFUNC 0x55f07c665150 <e2963> {c1}  _eval_debug_assertions
+    1:2:3: IF 0x55f07c6553a0 <e2977> {c9}
+    1:2:3:1: AND 0x55f07c64c450 <e2978> {c9} @dt=0x55f07c653400@(G/w1)
+    1:2:3:1:1: VARREF 0x55f07c6591f0 <e2972> {c9} @dt=0x55f07c653400@(G/w1)  blif_clk_net [RV] <- VAR 0x55f07c64b910 <e1042> {c9} @dt=0x55f07c653400@(G/w1)  blif_clk_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55f07c6563c0 <e2973> {c9} @dt=0x55f07c654e80@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55f07c651b80 <e2975> {c9}
+    1:2:3:2:1: TEXT 0x55f07c669ae0 <e2976> {c9} "Verilated::overWidthError("blif_clk_net");"
+    1:2:3: IF 0x55f07c653d70 <e2995> {c10}
+    1:2:3:1: AND 0x55f07c65df20 <e2994> {c10} @dt=0x55f07c653400@(G/w1)
+    1:2:3:1:1: VARREF 0x55f07c64a540 <e2988> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [RV] <- VAR 0x55f07c64c570 <e1047> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55f07c654860 <e2989> {c10} @dt=0x55f07c654e80@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55f07c665330 <e2991> {c10}
+    1:2:3:2:1: TEXT 0x55f07c665060 <e2992> {c10} "Verilated::overWidthError("blif_reset_net");"
+    1:2:3: IF 0x55f07c663580 <e3012> {c11}
+    1:2:3:1: AND 0x55f07c64a040 <e3011> {c11} @dt=0x55f07c653400@(G/w1)
+    1:2:3:1:1: VARREF 0x55f07c64a8d0 <e3005> {c11} @dt=0x55f07c653400@(G/w1)  G0 [RV] <- VAR 0x55f07c64c800 <e1053> {c11} @dt=0x55f07c653400@(G/w1)  G0 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55f07c6530f0 <e3006> {c11} @dt=0x55f07c654e80@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55f07c667010 <e3008> {c11}
+    1:2:3:2:1: TEXT 0x55f07c664dc0 <e3009> {c11} "Verilated::overWidthError("G0");"
+    1:2:3: IF 0x55f07c64cf60 <e3029> {c12}
+    1:2:3:1: AND 0x55f07c665570 <e3028> {c12} @dt=0x55f07c653400@(G/w1)
+    1:2:3:1:1: VARREF 0x55f07c65bea0 <e3022> {c12} @dt=0x55f07c653400@(G/w1)  G1 [RV] <- VAR 0x55f07c64a760 <e1059> {c12} @dt=0x55f07c653400@(G/w1)  G1 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55f07c65dce0 <e3023> {c12} @dt=0x55f07c654e80@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55f07c665630 <e3025> {c12}
+    1:2:3:2:1: TEXT 0x55f07c64d370 <e3026> {c12} "Verilated::overWidthError("G1");"
+    1:2:3: IF 0x55f07c663e80 <e3046> {c13}
+    1:2:3:1: AND 0x55f07c663d00 <e3045> {c13} @dt=0x55f07c653400@(G/w1)
+    1:2:3:1:1: VARREF 0x55f07c65ad40 <e3039> {c13} @dt=0x55f07c653400@(G/w1)  G2 [RV] <- VAR 0x55f07c64aaf0 <e1065> {c13} @dt=0x55f07c653400@(G/w1)  G2 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55f07c64d030 <e3040> {c13} @dt=0x55f07c654e80@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55f07c663dc0 <e3042> {c13}
+    1:2:3:2:1: TEXT 0x55f07c65e040 <e3043> {c13} "Verilated::overWidthError("G2");"
+    1:2:3: IF 0x55f07c65d970 <e3063> {c14}
+    1:2:3:1: AND 0x55f07c65d7f0 <e3062> {c14} @dt=0x55f07c653400@(G/w1)
+    1:2:3:1:1: VARREF 0x55f07c65ca70 <e3056> {c14} @dt=0x55f07c653400@(G/w1)  G3 [RV] <- VAR 0x55f07c64ae80 <e1071> {c14} @dt=0x55f07c653400@(G/w1)  G3 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3:1:2: CONST 0x55f07c65d6c0 <e3057> {c14} @dt=0x55f07c654e80@(G/w8)  8'hfe
+    1:2:3:2: CSTMT 0x55f07c65d8b0 <e3059> {c14}
+    1:2:3:2:1: TEXT 0x55f07c64da30 <e3060> {c14} "Verilated::overWidthError("G3");"
+    1:2: CFUNC 0x55f07c6695e0 <e3065> {c1}  _ctor_var_reset [SLOW]
+    1:2:3: CRESET 0x55f07c669760 <e3068> {c9}
+    1:2:3:1: VARREF 0x55f07c65c890 <e3067> {c9} @dt=0x55f07c653400@(G/w1)  blif_clk_net [LV] => VAR 0x55f07c64b910 <e1042> {c9} @dt=0x55f07c653400@(G/w1)  blif_clk_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55f07c669940 <e3072> {c10}
+    1:2:3:1: VARREF 0x55f07c669820 <e3070> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [LV] => VAR 0x55f07c64c570 <e1047> {c10} @dt=0x55f07c653400@(G/w1)  blif_reset_net [PI] INPUT [CLK] [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55f07c668770 <e3076> {c11}
+    1:2:3:1: VARREF 0x55f07c668650 <e3074> {c11} @dt=0x55f07c653400@(G/w1)  G0 [LV] => VAR 0x55f07c64c800 <e1053> {c11} @dt=0x55f07c653400@(G/w1)  G0 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55f07c668950 <e3080> {c12}
+    1:2:3:1: VARREF 0x55f07c668830 <e3078> {c12} @dt=0x55f07c653400@(G/w1)  G1 [LV] => VAR 0x55f07c64a760 <e1059> {c12} @dt=0x55f07c653400@(G/w1)  G1 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55f07c663f50 <e3084> {c13}
+    1:2:3:1: VARREF 0x55f07c668a10 <e3082> {c13} @dt=0x55f07c653400@(G/w1)  G2 [LV] => VAR 0x55f07c64aaf0 <e1065> {c13} @dt=0x55f07c653400@(G/w1)  G2 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55f07c65d180 <e3088> {c14}
+    1:2:3:1: VARREF 0x55f07c65d060 <e3086> {c14} @dt=0x55f07c653400@(G/w1)  G3 [LV] => VAR 0x55f07c64ae80 <e1071> {c14} @dt=0x55f07c653400@(G/w1)  G3 [PI] INPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55f07c65d360 <e3092> {c15}
+    1:2:3:1: VARREF 0x55f07c65d240 <e3090> {c15} @dt=0x55f07c653400@(G/w1)  G17 [LV] => VAR 0x55f07c64b210 <e1077> {c15} @dt=0x55f07c653400@(G/w1)  G17 [PO] OUTPUT [P] [VSTATIC]  PORT
+    1:2:3: CRESET 0x55f07c65d540 <e3096> {c16}
+    1:2:3:1: VARREF 0x55f07c65d420 <e3094> {c16} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G5 [LV] => VAR 0x55f07c660770 <e922> {c16} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G5 [VSTATIC]  VAR
+    1:2:3: CRESET 0x55f07c660fc0 <e3100> {c17}
+    1:2:3:1: VARREF 0x55f07c660ea0 <e3098> {c17} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G6 [LV] => VAR 0x55f07c6608e0 <e923> {c17} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G6 [VSTATIC]  VAR
+    1:2:3: CRESET 0x55f07c6611a0 <e3104> {c18}
+    1:2:3:1: VARREF 0x55f07c661080 <e3102> {c18} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G7 [LV] => VAR 0x55f07c660a50 <e924> {c18} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G7 [VSTATIC]  VAR
+    1:2:3: CRESET 0x55f07c669a00 <e3108> {c19}
+    1:2:3:1: VARREF 0x55f07c661260 <e3106> {c19} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G8 [LV] => VAR 0x55f07c660bc0 <e925> {c19} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G8 [VSTATIC]  WIRE
+    1:2:3: CRESET 0x55f07c65ea60 <e3112> {c20}
+    1:2:3:1: VARREF 0x55f07c65e940 <e3110> {c20} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G11 [LV] => VAR 0x55f07c660d30 <e926> {c20} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G11 [VSTATIC]  WIRE
+    1:2:3: CRESET 0x55f07c65ec40 <e3116#> {c25}
+    1:2:3:1: VARREF 0x55f07c65eb20 <e3114> {c25} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G12 [LV] => VAR 0x55f07c661460 <e931> {c25} @dt=0x55f07c653400@(G/w1)  s27_bench__DOT__G12 [VSTATIC]  WIRE
+    2: CFILE 0x55f07c65ed30 <e3117#> {a0}  obj_dir/Vs27__Syms.cpp [SRC] [SLOW]
+    2: CFILE 0x55f07c6671b0 <e3119#> {a0}  obj_dir/Vs27__Syms.h [SLOW]
+    2: CFILE 0x55f07c667410 <e3121#> {a0}  obj_dir/Vs27.h
+    2: CFILE 0x55f07c6675e0 <e3123#> {a0}  obj_dir/Vs27.cpp [SRC]
+    3: TYPETABLE 0x55f07c638530 <e2> {a0}
+		detailed  ->  BASICDTYPE 0x55f07c653400 <e151> {c29} @dt=this@(G/w1)  logic [GENERIC] kwd=logic
+		detailed  ->  BASICDTYPE 0x55f07c654e80 <e2969> {c9} @dt=this@(G/w8)  logic [GENERIC] kwd=logic range=[7:0]
+		detailed  ->  BASICDTYPE 0x55f07c65a470 <e2634> {c29} @dt=this@(G/wu32/1)  logic [GENERIC] kwd=logic range=[31:0]
+		detailed  ->  BASICDTYPE 0x55f07c65b2c0 <e2664> {c40} @dt=this@(G/w32)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55f07c653400 <e151> {c29} @dt=this@(G/w1)  logic [GENERIC] kwd=logic
+    3:1: BASICDTYPE 0x55f07c65a470 <e2634> {c29} @dt=this@(G/wu32/1)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55f07c65b2c0 <e2664> {c40} @dt=this@(G/w32)  logic [GENERIC] kwd=logic range=[31:0]
+    3:1: BASICDTYPE 0x55f07c654e80 <e2969> {c9} @dt=this@(G/w8)  logic [GENERIC] kwd=logic range=[7:0]
